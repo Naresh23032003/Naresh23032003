@@ -21,7 +21,7 @@ I am currently pursuing an Interdisciplinary Dual Degree (TechMBA) at the Indian
 <!-- Projects -->
 ## Projects 🛠️
 Explore some of my projects below:
-- [Document Summarization and Reporting](#)
+- [PDF Chat](https://github.com/Naresh23032003/PDF-Chat)
 - [Surface Defects Detection using Image Processing](#)
 - [Sales Dashboard using Power BI](#)
 - [Gender Detection using Images](https://github.com/Naresh23032003/Gender-Classification)
