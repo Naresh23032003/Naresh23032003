@@ -42,7 +42,7 @@
       <stop offset="1" stop-color="#22D3EE" stop-opacity="0.55"/>
     </linearGradient>
 
-    <linearGradient id="wireEdge" x1="890" y1="90" x2="1065" y2="212" gradientUnits="userSpaceOnUse">
+    <linearGradient id="wireEdge" x1="895" y1="105" x2="1115" y2="195" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#6366F1" stop-opacity="0.70"/>
       <stop offset="0.5" stop-color="#A855F7" stop-opacity="0.45"/>
       <stop offset="1" stop-color="#22D3EE" stop-opacity="0.70"/>
@@ -68,8 +68,8 @@
       <rect width="1200" height="300" rx="20"/>
     </clipPath>
 
-    <path id="flow" d="M905 96 L1010 96 L1055 150 L1010 204 L905 204"/>
-    <path id="ruleTrack" d="M64 210 H648"/>
+    <path id="pathLocal" d="M900 150 L952 150 L1012 102 L1072 150 L1112 150"/>
+    <path id="pathCloud" d="M900 150 L952 150 L1012 198 L1072 150 L1112 150"/>
   </defs>
 
   <style>
@@ -115,7 +115,7 @@
       50%      { opacity: 1; }
     }
 
-    .ring { transform-origin: 1010px 150px; animation: spin 24s linear infinite; }
+    .ring { transform-origin: 1012px 150px; animation: spin 24s linear infinite; }
     @keyframes spin { to { transform: rotate(360deg); } }
 
     .caret { animation: blink 1.15s steps(1) infinite; }
@@ -154,12 +154,6 @@
     <text class="sans" x="64" y="190" font-size="19" font-weight="500" letter-spacing="0.4" fill="#C7D2FE">Applied AI Engineer<tspan fill="#66779F" dx="10">/</tspan><tspan fill="#A5B4FC" dx="10">Local-first LLM Systems</tspan><tspan fill="#66779F" dx="10">/</tspan><tspan fill="#67E8F9" dx="10">Full Stack</tspan></text>
 
     <path d="M64 210 H648" stroke="url(#ruleGrad)" stroke-width="2.5" stroke-linecap="round"/>
-    <circle r="3.6" fill="#FFFFFF" opacity="0.9">
-      <animateMotion dur="4.5s" repeatCount="indefinite" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="spline"
-                     keySplines="0.4 0 0.2 1; 0.4 0 0.2 1">
-        <mpath xlink:href="#ruleTrack"/>
-      </animateMotion>
-    </circle>
 
     <g class="mono" font-size="12.5" letter-spacing="0.8">
       <g class="pill"><rect x="64" y="234" width="96" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#pillEdge)"/><text x="112" y="252" text-anchor="middle" fill="#C2CCEC">FastAPI</text></g>
@@ -170,38 +164,54 @@
       <g class="pill p6"><rect x="594" y="234" width="126" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#pillEdge)"/><text x="657" y="252" text-anchor="middle" fill="#C2CCEC">Kubernetes</text></g>
     </g>
 
-    <!-- Right column: retrieval pipeline motif -->
+    <!-- Right column: the two-brain request path from Nikki. A message hits the
+         router, which sends it down the local path or the cloud path, and both
+         converge through the guards before anything is returned. -->
     <g>
       <g class="ring">
-        <circle cx="1010" cy="150" r="86" fill="none" stroke="#6366F1" stroke-opacity="0.22" stroke-width="1.5" stroke-dasharray="6 12"/>
-        <circle cx="1010" cy="150" r="112" fill="none" stroke="#22D3EE" stroke-opacity="0.14" stroke-width="1.5" stroke-dasharray="3 18"/>
+        <circle cx="1012" cy="150" r="86" fill="none" stroke="#6366F1" stroke-opacity="0.22" stroke-width="1.5" stroke-dasharray="6 12"/>
+        <circle cx="1012" cy="150" r="112" fill="none" stroke="#22D3EE" stroke-opacity="0.14" stroke-width="1.5" stroke-dasharray="3 18"/>
       </g>
 
-      <g stroke="url(#wireEdge)" stroke-width="1.6" fill="none">
-        <path d="M905 96 L1010 96 L1055 150 L1010 204 L905 204"/>
-        <path d="M905 150 H1055"/>
-        <path d="M905 96 V204"/>
+      <g stroke="url(#wireEdge)" stroke-width="1.6" fill="none" stroke-linecap="round">
+        <path d="M900 150 H938"/>
+        <path d="M966 150 L1012 102"/>
+        <path d="M966 150 L1012 198"/>
+        <path d="M1012 102 L1062 146"/>
+        <path d="M1012 198 L1062 154"/>
+        <path d="M1082 150 H1112"/>
       </g>
 
-      <circle class="node" cx="905" cy="96" r="4.6" fill="#8B5CF6"/>
-      <circle class="node n2" cx="905" cy="150" r="4.6" fill="#6366F1"/>
-      <circle class="node n3" cx="905" cy="204" r="4.6" fill="#8B5CF6"/>
-      <circle class="node n4" cx="1010" cy="96" r="4.6" fill="#22D3EE"/>
-      <circle class="node n5" cx="1010" cy="204" r="4.6" fill="#22D3EE"/>
-      <circle cx="1055" cy="150" r="6" fill="#A5B4FC"/>
+      <circle class="node" cx="900" cy="150" r="5" fill="#8B5CF6"/>
 
-      <circle r="3.4" fill="#67E8F9">
-        <animateMotion dur="4s" repeatCount="indefinite" rotate="auto">
-          <mpath xlink:href="#flow"/>
+      <!-- router: deterministic rules first, then a constrained local classifier -->
+      <path class="node n2" d="M952 137 L965 150 L952 163 L939 150 Z" fill="none" stroke="#A5B4FC" stroke-width="1.6"/>
+
+      <circle class="node n3" cx="1012" cy="102" r="5" fill="#22D3EE"/>
+      <circle class="node n4" cx="1012" cy="198" r="5" fill="#8B5CF6"/>
+
+      <!-- guards, enforced in code before any reply is returned -->
+      <rect class="node n5" x="1063" y="138" width="18" height="24" rx="5" fill="none" stroke="#A5B4FC" stroke-width="1.6"/>
+
+      <circle cx="1112" cy="150" r="6" fill="#A5B4FC"/>
+
+      <circle r="3.2" fill="#67E8F9">
+        <animateMotion dur="4.4s" repeatCount="indefinite">
+          <mpath xlink:href="#pathLocal"/>
         </animateMotion>
       </circle>
       <circle r="2.6" fill="#C4B5FD" opacity="0.85">
-        <animateMotion dur="4s" begin="1.6s" repeatCount="indefinite" rotate="auto">
-          <mpath xlink:href="#flow"/>
+        <animateMotion dur="4.4s" begin="2.2s" repeatCount="indefinite">
+          <mpath xlink:href="#pathCloud"/>
         </animateMotion>
       </circle>
 
-      <text class="mono" x="1010" y="272" font-size="11" letter-spacing="2.4" text-anchor="middle" fill="#7688B4">RETRIEVE / ROUTE / VERIFY</text>
+      <g class="mono" font-size="9.5" letter-spacing="1.2" fill="#7688B4">
+        <text x="1012" y="88" text-anchor="middle">local</text>
+        <text x="1012" y="217" text-anchor="middle">cloud</text>
+      </g>
+
+      <text class="mono" x="1012" y="272" font-size="11" letter-spacing="2.4" text-anchor="middle" fill="#7688B4">ROUTE / GUARD / REPLY</text>
     </g>
 
     <g class="mono" font-size="12.5" letter-spacing="0.6">

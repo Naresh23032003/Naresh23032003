@@ -36,23 +36,23 @@ The constraint I design against most often is a hard one. Nikki is tuned to fit 
 <tr>
 <td width="33%" valign="top">
 
-**What recruiters notice**
+**Production surface area**
 
-Production surface area across the whole stack. Docker, Terraform, Kubernetes, GitHub Actions and evaluation gates ship inside the projects, not as a separate checklist.
+Docker, Terraform, Kubernetes, GitHub Actions and evaluation gates ship inside the projects themselves, not as a separate checklist bolted on at the end.
 
 </td>
 <td width="33%" valign="top">
 
-**What founders notice**
+**Finished, not demoed**
 
 Products that work end to end. Onboarding, offline fallbacks, billing, auth, and honest failure states are built in, and scope cuts are written down rather than hidden.
 
 </td>
 <td width="33%" valign="top">
 
-**What engineers notice**
+**Decisions with receipts**
 
-Decisions with receipts. Model choices, latency numbers and VRAM budgets are recorded in comments and eval suites, so the reasoning survives after the commit.
+Model choices, latency numbers and VRAM budgets are recorded in comments and eval suites, so the reasoning survives after the commit.
 
 </td>
 </tr>
