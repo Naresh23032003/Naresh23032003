@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="300" viewBox="0 0 1200 300" fill="none" role="img" aria-label="Naresh R, Applied AI Engineer, local-first LLM systems and full stack">
+  <title>Naresh R, Applied AI Engineer</title>
+
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#060912"/>
+      <stop offset="0.5" stop-color="#0C1226"/>
+      <stop offset="1" stop-color="#060912"/>
+    </linearGradient>
+
+    <radialGradient id="auroraA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="auroraB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="auroraC" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#A855F7" stop-opacity="0.52"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0"/>
+      <stop offset="0.32" stop-color="#8B5CF6"/>
+      <stop offset="0.68" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Stroke gradients use user-space units so zero-area lines still paint. -->
+    <linearGradient id="ruleGrad" x1="64" y1="0" x2="648" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0.15"/>
+      <stop offset="0.3" stop-color="#8B5CF6"/>
+      <stop offset="0.72" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0.15"/>
+    </linearGradient>
+
+    <linearGradient id="pillEdge" x1="64" y1="234" x2="720" y2="262" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#A855F7" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0.55"/>
+    </linearGradient>
+
+    <linearGradient id="wireEdge" x1="890" y1="90" x2="1065" y2="212" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0.70"/>
+      <stop offset="0.5" stop-color="#A855F7" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0.70"/>
+    </linearGradient>
+
+    <!-- Every stop stays light, so the name is fully legible at any animation
+         frame and also when animation never runs. The sweep is decoration. -->
+    <linearGradient id="nameFill" x1="20" y1="0" x2="480" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="pad">
+      <stop offset="0"    stop-color="#C3CDFF"/>
+      <stop offset="0.38" stop-color="#EAEFFF"/>
+      <stop offset="0.5"  stop-color="#FFFFFF"/>
+      <stop offset="0.62" stop-color="#EAEFFF"/>
+      <stop offset="1"    stop-color="#C3CDFF"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+                        values="-460 0; 460 0; -460 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0v48" fill="none" stroke="#FFFFFF" stroke-opacity="0.042" stroke-width="1"/>
+    </pattern>
+
+    <clipPath id="card">
+      <rect width="1200" height="300" rx="20"/>
+    </clipPath>
+
+    <path id="flow" d="M905 96 L1010 96 L1055 150 L1010 204 L905 204"/>
+    <path id="ruleTrack" d="M64 210 H648"/>
+  </defs>
+
+  <style>
+    /* No element depends on animation to become visible. Animation only ever
+       adds motion or brightness on top of a fully rendered static frame. */
+    .aurora-a { animation: driftA 18s ease-in-out infinite; }
+    .aurora-b { animation: driftB 22s ease-in-out infinite; }
+    .aurora-c { animation: driftC 26s ease-in-out infinite; }
+
+    @keyframes driftA {
+      0%, 100% { transform: translate(0px, 0px) scale(1); }
+      50%      { transform: translate(70px, 26px) scale(1.14); }
+    }
+    @keyframes driftB {
+      0%, 100% { transform: translate(0px, 0px) scale(1.05); }
+      50%      { transform: translate(-64px, -22px) scale(0.9); }
+    }
+    @keyframes driftC {
+      0%, 100% { transform: translate(0px, 0px) scale(0.95); }
+      50%      { transform: translate(34px, -34px) scale(1.18); }
+    }
+
+    .scanline { animation: scan 9s linear infinite; }
+    @keyframes scan {
+      0%   { transform: translateX(-1500px); }
+      100% { transform: translateX(1500px); }
+    }
+
+    .pill { animation: lift 4.5s ease-in-out infinite; }
+    .p2 { animation-delay: 0.35s; } .p3 { animation-delay: 0.70s; }
+    .p4 { animation-delay: 1.05s; } .p5 { animation-delay: 1.40s; }
+    .p6 { animation-delay: 1.75s; }
+    @keyframes lift {
+      0%, 100% { opacity: 0.78; }
+      50%      { opacity: 1; }
+    }
+
+    .node { animation: pulse 3.2s ease-in-out infinite; }
+    .n2 { animation-delay: 0.4s; } .n3 { animation-delay: 0.8s; }
+    .n4 { animation-delay: 1.2s; } .n5 { animation-delay: 1.6s; }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.5; }
+      50%      { opacity: 1; }
+    }
+
+    .ring { transform-origin: 1010px 150px; animation: spin 24s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .caret { animation: blink 1.15s steps(1) infinite; }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+
+    .mono { font-family: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+    .sans { font-family: "Inter", "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-serif; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .aurora-a, .aurora-b, .aurora-c, .scanline,
+      .pill, .node, .ring, .caret { animation: none; }
+    }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="url(#cardBg)"/>
+
+    <g class="aurora-a"><ellipse cx="215" cy="80" rx="330" ry="215" fill="url(#auroraA)"/></g>
+    <g class="aurora-b"><ellipse cx="1010" cy="245" rx="315" ry="200" fill="url(#auroraB)"/></g>
+    <g class="aurora-c"><ellipse cx="640" cy="30" rx="290" ry="180" fill="url(#auroraC)"/></g>
+
+    <rect width="1200" height="300" fill="url(#grid)"/>
+
+    <g class="scanline" opacity="0.45">
+      <rect x="0" y="0" width="150" height="300" fill="url(#scanGrad)" opacity="0.16"/>
+    </g>
+
+    <!-- Left column: identity -->
+    <g>
+      <rect x="64" y="52" width="11" height="11" rx="2.5" fill="#22D3EE"/>
+      <text class="mono" x="88" y="62" font-size="13" letter-spacing="1.6" fill="#93A4CC">github.com/Naresh23032003</text>
+    </g>
+
+    <text class="sans" x="62" y="150" font-size="62" font-weight="700" letter-spacing="2" fill="url(#nameFill)">NARESH R</text>
+
+    <text class="sans" x="64" y="190" font-size="19" font-weight="500" letter-spacing="0.4" fill="#C7D2FE">Applied AI Engineer<tspan fill="#66779F" dx="10">/</tspan><tspan fill="#A5B4FC" dx="10">Local-first LLM Systems</tspan><tspan fill="#66779F" dx="10">/</tspan><tspan fill="#67E8F9" dx="10">Full Stack</tspan></text>
+
+    <path d="M64 210 H648" stroke="url(#ruleGrad)" stroke-width="2.5" stroke-linecap="round"/>
+    <circle r="3.6" fill="#FFFFFF" opacity="0.9">
+      <animateMotion dur="4.5s" repeatCount="indefinite" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="spline"
+                     keySplines="0.4 0 0.2 1; 0.4 0 0.2 1">
+        <mpath xlink:href="#ruleTrack"/>
+      </animateMotion>
+    </circle>
+
+    <g class="mono" font-size="12.5" letter-spacing="0.8">
+      <g class="pill"><rect x="64" y="234" width="96" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#pillEdge)"/><text x="112" y="252" text-anchor="middle" fill="#C2CCEC">FastAPI</text></g>
+      <g class="pill p2"><rect x="170" y="234" width="88" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#pillEdge)"/><text x="214" y="252" text-anchor="middle" fill="#C2CCEC">Ollama</text></g>
+      <g class="pill p3"><rect x="268" y="234" width="82" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#pillEdge)"/><text x="309" y="252" text-anchor="middle" fill="#C2CCEC">React</text></g>
+      <g class="pill p4"><rect x="360" y="234" width="106" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#pillEdge)"/><text x="413" y="252" text-anchor="middle" fill="#C2CCEC">Supabase</text></g>
+      <g class="pill p5"><rect x="476" y="234" width="108" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#pillEdge)"/><text x="530" y="252" text-anchor="middle" fill="#C2CCEC">Terraform</text></g>
+      <g class="pill p6"><rect x="594" y="234" width="126" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="url(#pillEdge)"/><text x="657" y="252" text-anchor="middle" fill="#C2CCEC">Kubernetes</text></g>
+    </g>
+
+    <!-- Right column: retrieval pipeline motif -->
+    <g>
+      <g class="ring">
+        <circle cx="1010" cy="150" r="86" fill="none" stroke="#6366F1" stroke-opacity="0.22" stroke-width="1.5" stroke-dasharray="6 12"/>
+        <circle cx="1010" cy="150" r="112" fill="none" stroke="#22D3EE" stroke-opacity="0.14" stroke-width="1.5" stroke-dasharray="3 18"/>
+      </g>
+
+      <g stroke="url(#wireEdge)" stroke-width="1.6" fill="none">
+        <path d="M905 96 L1010 96 L1055 150 L1010 204 L905 204"/>
+        <path d="M905 150 H1055"/>
+        <path d="M905 96 V204"/>
+      </g>
+
+      <circle class="node" cx="905" cy="96" r="4.6" fill="#8B5CF6"/>
+      <circle class="node n2" cx="905" cy="150" r="4.6" fill="#6366F1"/>
+      <circle class="node n3" cx="905" cy="204" r="4.6" fill="#8B5CF6"/>
+      <circle class="node n4" cx="1010" cy="96" r="4.6" fill="#22D3EE"/>
+      <circle class="node n5" cx="1010" cy="204" r="4.6" fill="#22D3EE"/>
+      <circle cx="1055" cy="150" r="6" fill="#A5B4FC"/>
+
+      <circle r="3.4" fill="#67E8F9">
+        <animateMotion dur="4s" repeatCount="indefinite" rotate="auto">
+          <mpath xlink:href="#flow"/>
+        </animateMotion>
+      </circle>
+      <circle r="2.6" fill="#C4B5FD" opacity="0.85">
+        <animateMotion dur="4s" begin="1.6s" repeatCount="indefinite" rotate="auto">
+          <mpath xlink:href="#flow"/>
+        </animateMotion>
+      </circle>
+
+      <text class="mono" x="1010" y="272" font-size="11" letter-spacing="2.4" text-anchor="middle" fill="#7688B4">RETRIEVE / ROUTE / VERIFY</text>
+    </g>
+
+    <g class="mono" font-size="12.5" letter-spacing="0.6">
+      <text x="1136" y="44" text-anchor="end" fill="#7C8CB6">$ uvicorn app.main:app</text>
+      <rect class="caret" x="1138" y="33" width="7" height="14" fill="#22D3EE"/>
+    </g>
+  </g>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="298.5" rx="20" fill="none" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="1.5"/>
+</svg>
