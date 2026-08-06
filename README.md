@@ -6,7 +6,7 @@
 
 <a href="https://github.com/Naresh23032003?tab=repositories">
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=8B5CF6&center=true&vCenter=true&width=860&height=42&lines=Applied+AI+Engineer+building+local-first+LLM+systems;FastAPI+%2B+Ollama+%2B+ChromaDB%2C+running+fully+offline;Expo+%2B+Supabase+%2B+Groq%2C+voice-first+product+work;Terraform%2C+EKS+and+GitHub+Actions+into+production" alt="Applied AI Engineer building local-first LLM systems">
-</a>
+</a> 
 
 <br>
 
