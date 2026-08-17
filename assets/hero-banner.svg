@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="300" viewBox="0 0 1200 300" fill="none" role="img" aria-label="Naresh R, Applied AI Engineer, local-first LLM systems and full stack">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="300" viewBox="0 0 1200 300" fill="none" role="img" aria-label="Naresh R, Applied AI Engineer, agentic and local-first LLM systems, full stack">
   <title>Naresh R, Applied AI Engineer</title>
 
   <defs>
@@ -151,7 +151,7 @@
 
     <text class="sans" x="62" y="150" font-size="62" font-weight="700" letter-spacing="2" fill="url(#nameFill)">NARESH R</text>
 
-    <text class="sans" x="64" y="190" font-size="19" font-weight="500" letter-spacing="0.4" fill="#C7D2FE">Applied AI Engineer<tspan fill="#66779F" dx="10">/</tspan><tspan fill="#A5B4FC" dx="10">Local-first LLM Systems</tspan><tspan fill="#66779F" dx="10">/</tspan><tspan fill="#67E8F9" dx="10">Full Stack</tspan></text>
+    <text class="sans" x="64" y="190" font-size="19" font-weight="500" letter-spacing="0.4" fill="#C7D2FE">Applied AI Engineer<tspan fill="#66779F" dx="10">/</tspan><tspan fill="#A5B4FC" dx="10">Agentic &amp; Local-first Systems</tspan><tspan fill="#66779F" dx="10">/</tspan><tspan fill="#67E8F9" dx="10">Full Stack</tspan></text>
 
     <path d="M64 210 H648" stroke="url(#ruleGrad)" stroke-width="2.5" stroke-linecap="round"/>
 
