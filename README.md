@@ -5,16 +5,16 @@
 <br>
 
 <a href="https://github.com/Naresh23032003?tab=repositories">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=8B5CF6&center=true&vCenter=true&width=880&height=42&lines=Applied+AI+Engineer+building+agentic+and+local-first+systems;Self-healing+incident+ops+with+signed%2C+hash-chained+evidence;FastAPI+%2B+Ollama+%2B+ChromaDB%2C+running+fully+offline;Terraform%2C+EKS+and+GitHub+Actions+into+production" alt="Applied AI Engineer building agentic and local-first systems">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=8B5CF6&center=true&vCenter=true&width=880&height=42&lines=Applied+AI+Engineer+and+researcher+in+agentic+systems;Peer-reviewed+work%2C+ablations+and+published+negative+results;Self-healing+incident+ops+with+signed%2C+hash-chained+evidence;FastAPI+%2B+Ollama+%2B+ChromaDB%2C+running+fully+offline;Terraform%2C+EKS+and+GitHub+Actions+into+production" alt="Applied AI Engineer and researcher in agentic systems">
 </a>
 
 <br>
 
-<a href="https://naresh-ai.com"><img src="https://img.shields.io/badge/Website-naresh--ai.com-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0D1117" alt="Website"></a> <a href="https://linkedin.com/in/naresh23"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D&labelColor=0D1117" alt="LinkedIn"></a> <a href="mailto:rnaresh23032003@gmail.com"><img src="https://img.shields.io/badge/Email-Reach%20out-22D3EE?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email"></a> <a href="https://naresh-ai.com/resume.pdf"><img src="https://img.shields.io/badge/Resume-PDF-A855F7?style=for-the-badge&logo=readdotcv&logoColor=white&labelColor=0D1117" alt="Resume"></a>
+<a href="https://naresh-ai.com"><img src="https://img.shields.io/badge/Website-naresh--ai.com-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0D1117" alt="Website"></a> <a href="https://linkedin.com/in/naresh23"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D&labelColor=0D1117" alt="LinkedIn"></a> <a href="mailto:rnaresh23032003@gmail.com"><img src="https://img.shields.io/badge/Email-Reach%20out-22D3EE?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email"></a> <a href="#04-research"><img src="https://img.shields.io/badge/Research-4%20publications-8B5CF6?style=for-the-badge&logo=googlescholar&logoColor=white&labelColor=0D1117" alt="Research publications"></a> <a href="https://naresh-ai.com/resume.pdf"><img src="https://img.shields.io/badge/Resume-PDF-A855F7?style=for-the-badge&logo=readdotcv&logoColor=white&labelColor=0D1117" alt="Resume"></a>
 
 <br>
 
-<a href="#01-profile">Profile</a> &nbsp;·&nbsp; <a href="#02-currently-building">Building</a> &nbsp;·&nbsp; <a href="#03-featured-work">Featured Work</a> &nbsp;·&nbsp; <a href="#04-receipts">Receipts</a> &nbsp;·&nbsp; <a href="#05-how-i-build">How I Build</a> &nbsp;·&nbsp; <a href="#06-stack">Stack</a> &nbsp;·&nbsp; <a href="#07-experience">Experience</a> &nbsp;·&nbsp; <a href="#08-research">Research</a> &nbsp;·&nbsp; <a href="#09-activity">Activity</a>
+<a href="#01-profile">Profile</a> &nbsp;·&nbsp; <a href="#02-currently-building">Building</a> &nbsp;·&nbsp; <a href="#03-featured-work">Featured Work</a> &nbsp;·&nbsp; <a href="#04-research">Research</a> &nbsp;·&nbsp; <a href="#05-receipts">Receipts</a> &nbsp;·&nbsp; <a href="#06-how-i-build">How I Build</a> &nbsp;·&nbsp; <a href="#07-stack">Stack</a> &nbsp;·&nbsp; <a href="#08-experience">Experience</a> &nbsp;·&nbsp; <a href="#09-activity">Activity</a>
 
 <br>
 
@@ -34,7 +34,9 @@ The repositories also carry everything around the model. React and React Native 
 
 The constraint I design against most often is a hard one. Nikki fits chat, embeddings, speech-to-text, text-to-speech and voice conversion inside a 6 GB GPU, and the tradeoffs are argued in the config file next to the eval results that justified them.
 
-> **Sole author.** Every repository linked on this profile is my own work — architecture, implementation, infrastructure, evaluation and documentation, written and maintained by me alone.
+I work on this the way a research group would. Four peer-reviewed papers so far, and the engineering repositories are run as experiments rather than demonstrations: a hypothesis, a fixed evaluation set, an ablation, and a result reported whether or not it is flattering. The most useful finding in AEGIS is a negative one — deleting the prompt text that had been leaking the answer dropped the agent from confidently naming faults to honestly restating symptoms, and the tool-use telemetry showed it had never been diagnosing at all. That is written into the repository, not around it. [Section 04](#04-research) has the papers, the questions I am working on now, and the method.
+
+> **Sole author.** Every repository linked on this profile is my own work — architecture, implementation, infrastructure, evaluation and documentation, written and maintained by me alone. The papers in section 04 are collaborative work, credited as printed on each publisher record.
 
 <table>
 <tr>
@@ -54,9 +56,9 @@ Products that work end to end. Onboarding, offline fallbacks, billing, auth and 
 </td>
 <td width="33%" valign="top">
 
-**Decisions with receipts**
+**Results, including the bad ones**
 
-Model choices, latency numbers, VRAM budgets and cost per incident are recorded in eval suites and reports, so the reasoning survives after the commit.
+Model choices, latency numbers, VRAM budgets and cost per incident are recorded in eval suites and phase reports. Ablations that failed are published next to the ones that worked.
 
 </td>
 </tr>
@@ -232,7 +234,72 @@ detect  ->  triage  ->  diagnose  ->  plan  ->  policy gate  ->  execute  ->  ve
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-## 04 Receipts
+## 04 Research
+
+Four peer-reviewed papers, and a working habit that does not stop at the paper: the engineering repositories on this profile are run as experiments, with a fixed evaluation set, an ablation, and a result reported whether or not it flatters the system.
+
+**Peer-reviewed publications**
+
+| Year | Paper | Venue | Record |
+|:--|:--|:--|:--|
+| 2025 | GenAI-Driven Intelligent Email Ticketing for Sentiment-Aware Customer Support | ICACECS 2025, Springer Nature, *Smart Innovation, Systems and Technologies* | [code](https://github.com/Naresh23032003/GenAI-Driven-Intelligent-Email-Ticketing) · [demo](https://www.youtube.com/watch?v=66db5RdDg58) |
+| 2025 | Automated Assessment of Fruit Quality Using Transfer Learning and MobileNetV2 | International Journal for Research in Applied Science and Engineering Technology, 13(IV) | [DOI](https://doi.org/10.22214/ijraset.2025.68187) |
+| 2025 | Enhancing Sentiment Analysis on Amazon Reviews Using Ensemble Learning Models | International Journal of Innovative Research in Technology, 11(8), 3349–3354 | [paper](https://ijirt.org/Article?manuscript=172458) |
+| 2024 | Optimizing Delivery Operations in Dynamic Urban Environments: A Comprehensive Model | Society of Operations Management, XXVII Annual International Conference | — |
+
+The papers are collaborative work, with authorship as printed on each linked record. Everything in sections 02 and 03 is solo.
+
+**What I work on**
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Reliability and evaluation of agentic systems**
+
+The gap between what an agent outputs and what it actually did. Tool-use telemetry as ground truth for whether reasoning happened, constrained action spaces as an enforced property rather than an instruction, and evaluation sets that a model cannot pass by pattern-matching the prompt.
+
+</td>
+<td width="50%" valign="top">
+
+**Verification and abstention in retrieval**
+
+Tracing a generated figure back to the span that supports it, and abstaining when no such span exists. Hybrid dense and sparse retrieval, table extraction from documents that were never meant to be parsed, and cross-encoder re-ranking under an air-gap constraint.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Inference under hard resource constraints**
+
+What is actually reachable inside a 6 GB VRAM budget when chat, embeddings, speech recognition, synthesis and voice conversion all have to coexist. Quantisation, keep-alive and residency tradeoffs measured against failures rather than assumed.
+
+</td>
+<td width="50%" valign="top">
+
+**Auditability of automated decisions**
+
+Hash-chained decision logs, signed human approvals, and evidence artifacts a third party can verify without trusting the system's own account of itself. Also drift monitoring that separates genuine distribution shift from an upstream data fault.
+
+</td>
+</tr>
+</table>
+
+**Open questions I am currently working through, in public repositories**
+
+- **Does a diagnosis agent read the evidence it is given?** In AEGIS the trace-query tool has been called zero times across 29 live diagnoses and three development phases. Four of five diagnoses answered on turn one with no tool call at all. The evidence layer exists and the model ignores it, which is a measurement about tool-use incentives rather than a bug in the tool.
+- **How much of an agent's apparent competence is the prompt?** Removing the fault descriptions and named fixes from the AEGIS prompts moved the model from naming a fault at 0.8 confidence to restating the symptom at 0.0. The ablation is the result: what looked like diagnosis was retrieval from the instructions.
+- **When is a better model not worth promoting?** The churn system's candidate wins on ROC AUC by 0.0006 while losing on calibration and top-decile precision. The design document argues the gate should require a material gain, not a positive sign.
+- **Can retrieval be made to decline?** The air-gapped compliance work turns on a verifier that traces every figure to a source or abstains, which makes abstention a measurable outcome rather than a failure mode.
+
+**How I run an experiment**
+
+Fixed evaluation sets that execute with no model in the loop, so any reader with the repository reproduces the number. Ablation before attribution. Held-out blocks split strictly in time with an embargo between them. Promotion gates committed before the results are known. And negative results published in the same README as the positive ones, at the same size.
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+## 05 Receipts
 
 Claims on this page are checkable in the repositories. A sample, with where to look.
 
@@ -243,6 +310,8 @@ Claims on this page are checkable in the repositories. A sample, with where to l
 | RVC call latency after caching the pitch model | ~2000 ms → ~300 ms per chunk | Nikki call path notes |
 | AEGIS incidents on a measured model set | MTTR 21–136 s, $0.0015–$0.0030 per incident | `docs/reports/PHASE_6_REPORT.md` |
 | AEGIS audit log is tamper-evident | `sha256(prev_hash ‖ canonical_json)` per event | `GET /api/incidents/{id}/verify-chain` |
+| Prompt-leak ablation in AEGIS | 0.8 → 0.0 stated confidence once the answers left the prompt | Phase 12 and 13 reports |
+| Evidence tools the agent never used | 0 trace queries across 29 live diagnoses | `FINAL_VERIFICATION.md` |
 | Churn system serving latency | 1.66 ms p95, against a 150 ms objective | `artifacts/benchmarks/`, real HTTP |
 | Churn system test suite | 124 tests, `make test` from a clean checkout | `tests/` |
 | Insight Pulse deploys are reversible | Every image pinned to a commit SHA | `.github/workflows/deploy.yml` |
@@ -251,7 +320,7 @@ Where a number is worse than it should be, it is still written down: AEGIS ships
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-## 05 How I Build
+## 06 How I Build
 
 The same request path shows up in most of my AI work: deterministic code decides, the model only fills the parts that need language, and nothing is returned or executed without passing a guard that leaves a trace.
 
@@ -335,7 +404,7 @@ Row-level security on every Supabase table, provider keys confined to edge funct
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-## 06 Stack
+## 07 Stack
 
 Everything below appears in the repositories linked above.
 
@@ -377,7 +446,7 @@ Everything below appears in the repositories linked above.
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-## 07 Experience
+## 08 Experience
 
 | Role | Organisation | Period | Work |
 |:--|:--|:--|:--|
@@ -391,17 +460,6 @@ Earlier: Generative AI Intern at Tecnod8, Software Development Intern at Razorpa
 **Education**
 
 <img src="https://img.shields.io/badge/M.Sc%20Data%20Science%20%26%20AI-BITS%20Pilani-6366F1?style=flat-square&labelColor=0D1117" alt="M.Sc Data Science and AI, BITS Pilani"> <img src="https://img.shields.io/badge/B.Tech%20%2B%20MBA%20Dual%20Degree-IIT%20Madras-8B5CF6?style=flat-square&labelColor=0D1117" alt="B.Tech and MBA Dual Degree, IIT Madras"> <img src="https://img.shields.io/badge/AWS%20Certified-AI%20%26%20Cloud%20Practitioner-FF9900?style=flat-square&labelColor=0D1117" alt="AWS Certified AI Practitioner and Cloud Practitioner">
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-## 08 Research
-
-| Paper | Venue |
-|:--|:--|
-| GenAI-Driven Intelligent Email Ticketing for Sentiment-Aware Customer Support &nbsp;·&nbsp; [code](https://github.com/Naresh23032003/GenAI-Driven-Intelligent-Email-Ticketing) | ICACECS 2025, Springer Nature, Smart Innovation, Systems and Technologies |
-| Optimizing Delivery Operations in Dynamic Urban Environments: A Comprehensive Model | Society of Operations Management XXVII Annual International Conference, 2024 |
-| Enhancing Sentiment Analysis on Amazon Reviews Using Ensemble Learning Models | International Journal of Innovative Research in Technology, 11(8), 2025 |
-| Automated Assessment of Fruit Quality Using Transfer Learning and MobileNetV2 | International Journal for Research in Applied Science and Engineering Technology, 13(IV), 2025 |
 
 <img src="assets/divider.svg" width="100%" alt="">
 
