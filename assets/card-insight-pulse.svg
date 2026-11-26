@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440" fill="none" role="img" aria-label="Insight Pulse: A Next.js SaaS taken all the way to EKS: Terraform VPC, real Stripe webhooks, SHA-pinned deploys. 0 rebuilds needed to roll back.">
+<title>Insight Pulse: A Next.js SaaS taken all the way to EKS: Terraform VPC, real Stripe webhooks, SHA-pinned deploys. 0 rebuilds needed to roll back.</title>
+<style>
+.s{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif} .m{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+
+.gl{animation:breathe 7s ease-in-out infinite}
+@keyframes breathe{50%{opacity:.55}}
+.nd{animation:pop 3.2s ease-in-out infinite both}
+@keyframes pop{0%,100%{fill:#0A0D14}15%{fill:#FB923C}35%{fill:#0A0D14}}
+.bar{transform-box:fill-box;transform-origin:center;animation:eq 1.3s ease-in-out infinite both}
+@keyframes eq{50%{transform:scaleY(.35)}}
+.draw{stroke-dasharray:1;animation:draw 5s ease-in-out infinite both}
+@keyframes draw{0%{stroke-dashoffset:1}40%,100%{stroke-dashoffset:0}}
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs>
+<clipPath id="clip"><rect width="800" height="440" rx="20"/></clipPath>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0v40" stroke="#fff" stroke-opacity="0.035"/></pattern>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FB923C" stop-opacity="0.32"/><stop offset="1" stop-color="#FB923C" stop-opacity="0"/></radialGradient>
+</defs>
+<g clip-path="url(#clip)"><rect width="800" height="440" fill="#0A0D14"/>
+<rect width="800" height="440" fill="url(#grid)"/>
+<ellipse class="gl" cx="700" cy="40" rx="320" ry="200" fill="url(#glow)"/>
+<rect x="0" y="0" width="800" height="4" fill="#FB923C"/>
+<text x="48" y="76" class="m" font-size="22" font-weight="600" fill="#FB923C" text-anchor="start" letter-spacing="2">CLOUD INFRASTRUCTURE</text>
+<text x="48" y="144" class="s" font-size="62" font-weight="700" fill="#E6EDF3" text-anchor="start" letter-spacing="-1.5">Insight Pulse</text>
+<text x="48" y="196" class="s" font-size="30" font-weight="400" fill="#C9D1D9" text-anchor="start" >A SaaS shipped the way infra teams ship.</text>
+<text x="48" y="330" class="s" font-size="88" font-weight="700" fill="#FB923C" text-anchor="start" letter-spacing="-2">0</text>
+<text x="48" y="378" class="s" font-size="25" font-weight="400" fill="#8B949E" text-anchor="start" >rebuilds needed to roll back</text>
+<line x1="500" y1="270" x2="722" y2="270" stroke="#1E2532" stroke-width="2"/>
+<rect x="472.0" y="252" width="56" height="36" rx="8" fill="#0A0D14" stroke="#FB923C" stroke-width="2"/>
+<text x="500.0" y="322" class="m" font-size="19" font-weight="400" fill="#8B949E" text-anchor="middle" >commit</text>
+<rect x="546.0" y="252" width="56" height="36" rx="8" fill="#0A0D14" stroke="#FB923C" stroke-width="2"/>
+<text x="574.0" y="322" class="m" font-size="19" font-weight="400" fill="#8B949E" text-anchor="middle" >build</text>
+<rect x="620.0" y="252" width="56" height="36" rx="8" fill="#0A0D14" stroke="#FB923C" stroke-width="2"/>
+<text x="648.0" y="322" class="m" font-size="19" font-weight="400" fill="#8B949E" text-anchor="middle" >ECR</text>
+<rect x="694.0" y="252" width="56" height="36" rx="8" fill="#0A0D14" stroke="#FB923C" stroke-width="2"/>
+<text x="722.0" y="322" class="m" font-size="19" font-weight="400" fill="#8B949E" text-anchor="middle" >EKS</text>
+<rect width="12" height="12" rx="2" fill="#FB923C" y="-6" x="-6"><animateMotion dur="3s" repeatCount="indefinite" path="M500 270 H722"/></rect>
+<text x="752" y="410" class="m" font-size="22" font-weight="600" fill="#FB923C" text-anchor="end" >open repo →</text>
+</g>
+<rect x="0.5" y="0.5" width="799" height="439" rx="20" stroke="#1E2532"/>
+</svg>

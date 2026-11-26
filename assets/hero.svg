@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" fill="none" role="img" aria-label="Naresh R. I build AI that runs where the data lives, and makes it prove what it did.">
+<title>Naresh R. I build AI that runs where the data lives, and makes it prove what it did.</title>
+<style>
+.s{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif} .m{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+
+.da{animation:drift 16s ease-in-out infinite alternate}
+.db{animation:drift 20s ease-in-out infinite alternate-reverse}
+@keyframes drift{to{transform:translate(60px,30px)}}
+.chip rect{animation:lit 5s ease-in-out infinite both}
+@keyframes lit{0%,100%{stroke:#1E2532}10%{stroke:#22D3EE}26%{stroke:#1E2532}}
+.chip:nth-of-type(1) rect{animation-delay:-0.5s}
+.chip:nth-of-type(2) rect{animation-delay:0.5s}
+.chip:nth-of-type(3) rect{animation-delay:1.5s}
+.chip:nth-of-type(4) rect{animation-delay:2.5s}
+.chip:nth-of-type(5) rect{animation-delay:3.5s}
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs>
+<clipPath id="clip"><rect width="1200" height="380" rx="20"/></clipPath>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0v40" stroke="#fff" stroke-opacity="0.035"/></pattern>
+</defs>
+<g clip-path="url(#clip)"><rect width="1200" height="380" fill="#0A0D14"/>
+<rect width="1200" height="380" fill="url(#grid)"/>
+<defs><radialGradient id="a" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#6366F1" stop-opacity=".45"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/></radialGradient><radialGradient id="b" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#22D3EE" stop-opacity=".30"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient><linearGradient id="ink" x1="72" y1="0" x2="620" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient></defs>
+<ellipse class="da" cx="260" cy="60" rx="420" ry="220" fill="url(#a)"/>
+<ellipse class="db" cx="1000" cy="360" rx="420" ry="220" fill="url(#b)"/>
+<text x="72" y="96" class="m" font-size="20" font-weight="400" fill="#8B949E" text-anchor="start" >~/naresh  ·  applied AI engineer &amp; researcher</text>
+<text x="72" y="190" class="s" font-size="88" font-weight="700" fill="#E6EDF3" text-anchor="start" letter-spacing="-2">Naresh R</text>
+<text x="72" y="252" class="s" font-size="32" font-weight="400" fill="#C9D1D9" text-anchor="start" >I build AI that runs where the data lives,</text>
+<text x="72" y="296" class="s" font-size="32" font-weight="600" fill="url(#ink)" text-anchor="start" >and makes it prove what it did.</text>
+<text x="72" y="342" class="m" font-size="18" font-weight="400" fill="#4B5563" text-anchor="start" >agents · retrieval · local-first LLMs · full stack</text>
+<line x1="862" y1="84.0" x2="862" y2="324.0" stroke="#1E2532" stroke-width="2"/>
+<g class="chip"><rect x="840" y="64" width="300" height="40" rx="10" fill="#0F1420" stroke="#1E2532"/><circle cx="862" cy="84.0" r="5" fill="#6366F1"/><text x="884" y="90" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="start" >input</text></g>
+<g class="chip"><rect x="840" y="124" width="300" height="40" rx="10" fill="#0F1420" stroke="#1E2532"/><circle cx="862" cy="144.0" r="5" fill="#6366F1"/><text x="884" y="150" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="start" >deterministic router</text></g>
+<g class="chip"><rect x="840" y="184" width="300" height="40" rx="10" fill="#0F1420" stroke="#1E2532"/><circle cx="862" cy="204.0" r="5" fill="#6366F1"/><text x="884" y="210" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="start" >local model</text></g>
+<g class="chip"><rect x="840" y="244" width="300" height="40" rx="10" fill="#0F1420" stroke="#1E2532"/><circle cx="862" cy="264.0" r="5" fill="#6366F1"/><text x="884" y="270" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="start" >guards + policy</text></g>
+<g class="chip"><rect x="840" y="304" width="300" height="40" rx="10" fill="#0F1420" stroke="#1E2532"/><circle cx="862" cy="324.0" r="5" fill="#6366F1"/><text x="884" y="330" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="start" >act · answer · abstain</text></g>
+<circle r="6" fill="#22D3EE"><animateMotion dur="5s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.8;1" calcMode="linear" path="M862 84.0 V324.0"/></circle>
+</g>
+<rect x="0.5" y="0.5" width="1199" height="379" rx="20" stroke="#1E2532"/>
+</svg>

@@ -1,508 +1,213 @@
 <div align="center">
 
-<img src="assets/hero-banner.svg" alt="Naresh R, Applied AI Engineer, agentic and local-first LLM systems, full stack" width="100%">
+<img src="assets/hero.svg" width="100%" alt="Naresh R. I build AI that runs where the data lives, and makes it prove what it did.">
 
-<br>
+**Forward Deployed Engineer at VaultStack AI** · ex-Accenture · IIT Madras · BITS Pilani · India
 
-<a href="https://github.com/Naresh23032003?tab=repositories">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=8B5CF6&center=true&vCenter=true&width=880&height=42&lines=Applied+AI+Engineer+and+researcher+in+agentic+systems;Peer-reviewed+work%2C+ablations+and+published+negative+results;Self-healing+incident+ops+with+signed%2C+hash-chained+evidence;FastAPI+%2B+Ollama+%2B+ChromaDB%2C+running+fully+offline;Terraform%2C+EKS+and+GitHub+Actions+into+production" alt="Applied AI Engineer and researcher in agentic systems">
-</a>
-
-<br>
-
-<a href="https://naresh-ai.com"><img src="https://img.shields.io/badge/Website-naresh--ai.com-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0D1117" alt="Website"></a> <a href="https://linkedin.com/in/naresh23"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D&labelColor=0D1117" alt="LinkedIn"></a> <a href="mailto:rnaresh23032003@gmail.com"><img src="https://img.shields.io/badge/Email-Reach%20out-22D3EE?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email"></a> <a href="#04-research"><img src="https://img.shields.io/badge/Research-4%20publications-8B5CF6?style=for-the-badge&logo=googlescholar&logoColor=white&labelColor=0D1117" alt="Research publications"></a> <a href="https://naresh-ai.com/resume.pdf"><img src="https://img.shields.io/badge/Resume-PDF-A855F7?style=for-the-badge&logo=readdotcv&logoColor=white&labelColor=0D1117" alt="Resume"></a>
-
-<br>
-
-<a href="#01-profile">Profile</a> &nbsp;·&nbsp; <a href="#02-currently-building">Building</a> &nbsp;·&nbsp; <a href="#03-featured-work">Featured Work</a> &nbsp;·&nbsp; <a href="#04-research">Research</a> &nbsp;·&nbsp; <a href="#05-receipts">Receipts</a> &nbsp;·&nbsp; <a href="#06-how-i-build">How I Build</a> &nbsp;·&nbsp; <a href="#07-stack">Stack</a> &nbsp;·&nbsp; <a href="#08-experience">Experience</a> &nbsp;·&nbsp; <a href="#09-activity">Activity</a>
-
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=Naresh23032003&label=Profile+views&color=6366F1&style=flat-square" alt="Profile views">
-
-<img src="assets/divider.svg" width="100%" alt="">
+<a href="https://naresh-ai.com">naresh-ai.com</a> &nbsp;·&nbsp; <a href="https://linkedin.com/in/naresh23">LinkedIn</a> &nbsp;·&nbsp; <a href="mailto:rnaresh23032003@gmail.com">Email</a> &nbsp;·&nbsp; <a href="https://naresh-ai.com/resume.pdf">Résumé</a> &nbsp;·&nbsp; <a href="https://orcid.org/0009-0000-0735-2066">ORCID</a>
 
 </div>
 
-## 01 Profile
+<br>
 
-I build AI systems that run where the data lives, and I make them prove what they did.
+Agents that reason freely but can only act through a typed catalog and a policy gate. Local models that do the default work on a consumer GPU. Logs you can recompute instead of just read. That's the thread through everything below, and every number on this page points at a file you can check.
 
-Recent work sits in two places. One is local-first inference: a FastAPI service in front of Ollama, a vector store on disk, correctness enforced by deterministic code rather than by prompt wording. The other is agentic operations: LLM agents that are allowed to reason freely but can only act through a typed, closed catalog, behind a policy engine, with every decision hash-chained into a log that can be recomputed and verified afterwards.
-
-The repositories also carry everything around the model. React and React Native front ends, Postgres schemas with row-level security on every table, Terraform and Kubernetes, model registries with promotion gates and rollback, and CI that fails on evaluation regressions rather than only on lint.
-
-The constraint I design against most often is a hard one. Nikki fits chat, embeddings, speech-to-text, text-to-speech and voice conversion inside a 6 GB GPU, and the tradeoffs are argued in the config file next to the eval results that justified them.
-
-I work on this the way a research group would. Four peer-reviewed papers so far, and the engineering repositories are run as experiments rather than demonstrations: a hypothesis, a fixed evaluation set, an ablation, and a result reported whether or not it is flattering. The most useful finding in AEGIS is a negative one — deleting the prompt text that had been leaking the answer dropped the agent from confidently naming faults to honestly restating symptoms, and the tool-use telemetry showed it had never been diagnosing at all. That is written into the repository, not around it. [Section 04](#04-research) has the papers, the questions I am working on now, and the method.
-
-> **Sole author.** Every repository linked on this profile is my own work — architecture, implementation, infrastructure, evaluation and documentation, written and maintained by me alone. The papers in section 04 are collaborative work, credited as printed on each publisher record.
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-**Production surface area**
-
-Docker, Terraform, Kubernetes, OPA, GitHub Actions and evaluation gates ship inside the projects themselves, not as a separate checklist bolted on at the end.
-
-</td>
-<td width="33%" valign="top">
-
-**Finished, not demoed**
-
-Products that work end to end. Onboarding, offline fallbacks, billing, auth and honest failure states are built in, and scope cuts are written down rather than hidden.
-
-</td>
-<td width="33%" valign="top">
-
-**Results, including the bad ones**
-
-Model choices, latency numbers, VRAM budgets and cost per incident are recorded in eval suites and phase reports. Ablations that failed are published next to the ones that worked.
-
-</td>
-</tr>
-</table>
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-## 02 Currently Building
-
-| Focus | What it is | Status |
-|:--|:--|:--|
-| [**AEGIS**](https://github.com/Naresh23032003/AEGIS) | Self-healing, multi-agent incident operations platform with signed approvals and a hash-chained audit trail | Active |
-| [**Nikki AI Companion**](https://github.com/Naresh23032003/Nikki-AI-Companion) | Self-hosted companion with long-term memory, voice calls and a WhatsApp bridge, running fully offline | Active |
-| [**Pocket Professor**](https://github.com/Naresh23032003/Pocket-Professor) | Voice-first spaced repetition that turns YouTube and PDFs into graded spoken quizzes | Active |
-| [**Insight Pulse**](https://github.com/Naresh23032003/insight-pulse) | Next.js SaaS on AWS EKS, provisioned with Terraform and shipped by GitHub Actions | Active |
-| [**Repeat-Purchase Churn System**](https://github.com/Naresh23032003/MLME) | End-to-end production ML: ingestion, feature store, promotion gate, registry, serving, drift monitoring | Shipped |
-| [**naresh-ai.com**](https://naresh-ai.com) | Personal site, served from [naresh-portfolio](https://github.com/Naresh23032003/naresh-portfolio) on GitHub Pages | Live |
-
-On the roadmap in those repos: a Kubernetes executor and WebAuthn approvals for AEGIS, caption-less video transcription fallback, visual ingestion for equations and diagrams, hands-free voice-activity submission, and a "teach it back" free-explanation grading mode.
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-## 03 Featured Work
-
-| Project | The problem it takes seriously | Proof it works |
-|:--|:--|:--|
-| [AEGIS](#aegis) | An agent that can act on infrastructure has to be constrained and auditable | Closed action catalog, OPA gate, hash-chained log, signed approvals |
-| [Nikki AI Companion](#nikki-ai-companion) | A private assistant that never leaves your machine, on consumer hardware | 91 deterministic evals gating every push, inside a 6 GB GPU budget |
-| [Pocket Professor](#pocket-professor) | Learning that survives contact with a commute | FSRS scheduling, sub-2.5 s spoken feedback, RLS on every table |
-| [Insight Pulse](#insight-pulse) | Shipping a SaaS the way an infrastructure team would | Terraform VPC and EKS, SHA-pinned deploys, real Stripe webhooks |
-| [Churn ML System](#repeat-purchase-churn-prediction) | An ML model is the small part of a production ML system | Promotion gate, registry rollback, PSI drift, 124 tests |
+> **In short:** applied AI engineer and researcher, shipping AI full-time since 2025 at Accenture and VaultStack AI. Four peer-reviewed papers and a solo working paper. Six solo systems below, each with tests or evals you can run.
 
 <br>
 
-### AEGIS
+## Right now
 
-[![Top language](https://img.shields.io/github/languages/top/Naresh23032003/AEGIS?style=flat-square&labelColor=0D1117&color=8B5CF6)](https://github.com/Naresh23032003/AEGIS) [![Last commit](https://img.shields.io/github/last-commit/Naresh23032003/AEGIS?style=flat-square&labelColor=0D1117&color=A855F7)](https://github.com/Naresh23032003/AEGIS/commits/main) [![Agents](https://img.shields.io/badge/Agents-LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white&labelColor=0D1117)](https://github.com/Naresh23032003/AEGIS) [![Policy](https://img.shields.io/badge/Policy-OPA%20%C2%B7%20Rego-7D9199?style=flat-square&logo=openpolicyagent&logoColor=white&labelColor=0D1117)](https://www.openpolicyagent.org) [![Offline demo](https://img.shields.io/badge/Demo-offline%2C%20no%20API%20key-22D3EE?style=flat-square&labelColor=0D1117)](https://github.com/Naresh23032003/AEGIS#quickstart)
+<img src="assets/now.svg" width="100%" alt="What I am working on now: AEGIS and Nikki active; mcp-approval-gateway being built; IDR crypto-premium paper being written; product-factory-skills and the churn ML system shipped">
 
-**[Naresh23032003/AEGIS](https://github.com/Naresh23032003/AEGIS)** — a self-healing incident operations platform. It watches a real three-service system, detects injected faults with a rules engine, diagnoses them with LLM agents reading live metrics, logs and traces, fixes low-risk problems on its own, routes risky fixes through a signed human approval, verifies the result, and replays every decision in a flight-recorder UI.
+<sub>[AEGIS](https://github.com/Naresh23032003/AEGIS) · [Nikki](https://github.com/Naresh23032003/Nikki-AI-Companion) · [mcp-approval-gateway](https://github.com/Naresh23032003/mcp-approval-gateway) · [IDR paper](https://github.com/Naresh23032003/idr-stablecoin-fx-basis) · [product-factory-skills](https://github.com/Naresh23032003/product-factory-skills) · [Churn ML](https://github.com/Naresh23032003/MLME)</sub>
+
+<br>
+
+## The work
+
+Six projects, six different problems. Click a card to open its repo, or open the notes underneath for how each one works.
+
+<p align="center">
+<a href="https://github.com/Naresh23032003/AEGIS"><img src="assets/card-aegis.svg" width="49%" alt="AEGIS: agentic incident ops. 0 paths from model output to a shell"></a>
+<a href="https://github.com/Naresh23032003/Nikki-AI-Companion"><img src="assets/card-nikki.svg" width="49%" alt="Nikki: private AI companion. 6 GB GPU budget for the whole voice stack"></a>
+<a href="https://github.com/Naresh23032003/MLME"><img src="assets/card-churn.svg" width="49%" alt="Churn ML system: production ML. 1.66 ms p95 serving latency"></a>
+<a href="https://github.com/Naresh23032003/Pocket-Professor"><img src="assets/card-pocket-professor.svg" width="49%" alt="Pocket Professor: voice-first learning. Under 2.5 s spoken feedback"></a>
+<a href="https://github.com/Naresh23032003/insight-pulse"><img src="assets/card-insight-pulse.svg" width="49%" alt="Insight Pulse: cloud infrastructure. 0 rebuilds needed to roll back"></a>
+<a href="https://github.com/Naresh23032003/product-factory-skills"><img src="assets/card-product-factory.svg" width="49%" alt="product-factory-skills: 8 agent skills from idea to launch"></a>
+</p>
+
+<details>
+<summary><b>AEGIS</b> · self-healing incident ops · Python, LangGraph, FastAPI, OPA/Rego, Postgres, Next.js</summary>
+
+<br>
+
+Watches a real three-service system, detects injected faults, has LLM agents diagnose them from live metrics, logs and traces, fixes the low-risk ones itself, and routes risky fixes through a signed human approval.
 
 ```text
 detect  ->  triage  ->  diagnose  ->  plan  ->  policy gate  ->  execute  ->  verify
  rules       LLM         LLM          LLM         OPA            Docker       probes
 ```
 
-| Layer | Choice |
-|:--|:--|
-| **Core** | Python 3.12, FastAPI api/worker/executor, LangGraph agent loop, Postgres 16, Redis 7 |
-| **Console** | Next.js, TypeScript, live event stream and incident replay |
-| **Control** | OPA/Rego policy tiers, Ed25519 signed approvals, JSON Schema contracts |
-| **Target and chaos** | Three-service demo system, Toxiproxy fault injection, OpenTelemetry via Grafana LGTM |
-
-- **No path from a model to a shell.** Agents choose a `catalog_key` from a fixed, typed action catalog. The executor never imports LLM code.
-- **A policy gate on every action.** Rego evaluates tier, confidence and severity before anything runs: green executes, yellow opens a veto window, red blocks on a human approval. A below-confidence proposal is denied and escalated instead of guessed at.
-- **Approvals nobody can forge.** Human decisions are Ed25519-signed in the browser; the server verifies but never holds a key that could sign for you.
-- **A log that can be checked, not just read.** Every event is `sha256(prev_hash ‖ canonical_json(envelope))`, written in the same transaction as the row it describes, and `verify-chain` recomputes the whole chain on demand.
-- **Evidence, not screenshots.** An incident exports a zip: a regulator-styled PDF with the timeline, every policy decision and rule id, every signed approval, chain verification, agent runs and cost, plus raw `events.jsonl`.
-- **Runs offline and deterministically.** `MOCK_LLM=1` is the default, so the whole stack comes up on fixtures with no API key, which is also what CI runs.
-- **It documents where it fails.** Prompts that leaked the answer to the diagnosis were deleted, and the honest result — models restating symptoms at 0.0 confidence instead of naming faults at 0.8 — is written into the README. One scenario no longer heals; the cause is traced to a rule-id and query-key mismatch, and the failing test is left in on purpose.
-
-<br>
-
-### Nikki AI Companion
-
-[![CI](https://img.shields.io/github/actions/workflow/status/Naresh23032003/Nikki-AI-Companion/ci.yml?branch=main&style=flat-square&label=CI&labelColor=0D1117&color=6366F1)](https://github.com/Naresh23032003/Nikki-AI-Companion/actions/workflows/ci.yml) [![Top language](https://img.shields.io/github/languages/top/Naresh23032003/Nikki-AI-Companion?style=flat-square&labelColor=0D1117&color=8B5CF6)](https://github.com/Naresh23032003/Nikki-AI-Companion) [![License](https://img.shields.io/github/license/Naresh23032003/Nikki-AI-Companion?style=flat-square&labelColor=0D1117&color=22D3EE)](https://github.com/Naresh23032003/Nikki-AI-Companion/blob/main/LICENSE) [![Last commit](https://img.shields.io/github/last-commit/Naresh23032003/Nikki-AI-Companion?style=flat-square&labelColor=0D1117&color=A855F7)](https://github.com/Naresh23032003/Nikki-AI-Companion/commits/main)
-
-**[Naresh23032003/Nikki-AI-Companion](https://github.com/Naresh23032003/Nikki-AI-Companion)** — a private, self-hosted AI companion that runs entirely on your own machine: streaming chat, long-term memory across sessions, voice notes, hands-free calls with a lip-synced avatar, and a WhatsApp bridge, all inside a 6 GB GPU budget.
-
-| Layer | Choice |
-|:--|:--|
-| **Core** | Python, FastAPI, Ollama, ChromaDB, SQLite, React PWA on Vite |
-| **Voice** | faster-whisper, Kokoro TTS, RVC voice conversion, XTTS-v2, Demucs |
-| **Delivery** | Multi-stage Dockerfile, one-command Compose lite tier, GitHub Actions CI |
-
-- **Two-brain routing.** Everything personal stays local. An optional cloud tier (Groq, then Gemini, then Cerebras) handles genuinely hard work, is budget-aware against free-tier limits, kill-switchable from config, and appends every outbound payload to an audit log.
-- **Guards live in code, not in prompts.** Replies claiming actions that never ran are regenerated, price and news claims with no tool behind them are stripped, and a mention is distinguished from a request everywhere.
-- **Deterministic evals gate every push.** Router 64 of 64, tone guards 10 of 10, temporal memory 9 of 9, journal patterns 8 of 8, all runnable with no model in the loop.
-- **Documented tradeoffs.** Model selection, keep-alive tuning and VRAM headroom are argued in `config.yaml` against measured failures, and RVC call latency was cut from about 2000 ms to about 300 ms per chunk by caching the pitch model and reusing one connection.
-- **Degrades honestly.** Voice and ML libraries are lazy-imported so the lite image boots without them, a stuck studio render times out and falls back, and a rate-limited cloud call becomes a deferred task instead of an invented answer.
-
-<br>
-
-### Pocket Professor
-
-[![Top language](https://img.shields.io/github/languages/top/Naresh23032003/Pocket-Professor?style=flat-square&labelColor=0D1117&color=8B5CF6)](https://github.com/Naresh23032003/Pocket-Professor) [![License](https://img.shields.io/github/license/Naresh23032003/Pocket-Professor?style=flat-square&labelColor=0D1117&color=22D3EE)](https://github.com/Naresh23032003/Pocket-Professor/blob/main/LICENSE) [![Last commit](https://img.shields.io/github/last-commit/Naresh23032003/Pocket-Professor?style=flat-square&labelColor=0D1117&color=A855F7)](https://github.com/Naresh23032003/Pocket-Professor/commits/main) [![Platform](https://img.shields.io/badge/iOS%20%C2%B7%20Android%20%C2%B7%20Web-Expo-6366F1?style=flat-square&logo=expo&logoColor=white&labelColor=0D1117)](https://github.com/Naresh23032003/Pocket-Professor)
-
-**[Naresh23032003/Pocket-Professor](https://github.com/Naresh23032003/Pocket-Professor)** — a voice-first learning companion. Paste a YouTube link or a PDF, get structured notes and atomic flashcards, then answer out loud in short daily sessions while an LLM grades the substance of what you said.
-
-| Layer | Choice |
-|:--|:--|
-| **App** | Expo, React Native, TypeScript, Expo Router, Zustand, Reanimated |
-| **Backend** | Supabase auth, Postgres, storage and edge functions written in Deno TypeScript |
-| **Models** | Groq: Llama 3.3 70B for card generation, Llama 3.1 8B for grading, Whisper large-v3-turbo for speech |
-
-- **Real spaced repetition.** FSRS scheduling through `ts-fsrs` at 0.9 target retention, computed client-side with state persisted to Postgres.
-- **A quiz loop as a state machine.** `use-quiz-session.ts` drives ask, listen, grade and feedback, with a sub-2.5 second feedback budget and tap-to-override grades.
-- **Row-level security on every table.** Migrations define the policies, and the Groq key never leaves an edge function.
-- **Fully usable muted.** Every spoken interaction has a text twin, so the product works without audio rather than degrading into nothing.
-- **Scope stated openly.** The README names what is deliberately out of this version, including payments and visual ingestion, instead of implying they exist.
-
-<br>
-
-### Insight Pulse
-
-[![Deploy](https://img.shields.io/github/actions/workflow/status/Naresh23032003/insight-pulse/deploy.yml?branch=main&style=flat-square&label=CI%2FCD&labelColor=0D1117&color=6366F1)](https://github.com/Naresh23032003/insight-pulse/actions/workflows/deploy.yml) [![Top language](https://img.shields.io/github/languages/top/Naresh23032003/insight-pulse?style=flat-square&labelColor=0D1117&color=8B5CF6)](https://github.com/Naresh23032003/insight-pulse) [![Last commit](https://img.shields.io/github/last-commit/Naresh23032003/insight-pulse?style=flat-square&labelColor=0D1117&color=A855F7)](https://github.com/Naresh23032003/insight-pulse/commits/main) [![IaC](https://img.shields.io/badge/IaC-Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white&labelColor=0D1117)](https://github.com/Naresh23032003/insight-pulse/tree/main/infrastructure)
-
-**[Naresh23032003/insight-pulse](https://github.com/Naresh23032003/insight-pulse)** — a monorepo SaaS build that takes a Next.js application all the way to a managed Kubernetes cluster, with the infrastructure defined as code rather than clicked together.
-
-| Layer | Choice |
-|:--|:--|
-| **App** | Next.js 16, React 19, TypeScript, Tailwind CSS v4, Clerk auth, Stripe checkout and webhooks |
-| **Infrastructure** | Terraform: VPC with private subnets, EKS 1.31, managed node groups that scale 1 to 3 |
-| **Pipeline** | GitHub Actions builds the image, pushes to ECR, then patches the Kubernetes deployment by commit SHA |
-
-- **Immutable image tags.** Every deploy is pinned to the commit SHA, so a rollback is a tag change rather than a rebuild.
-- **Private-subnet cluster.** Nodes sit in private subnets from the Terraform VPC module, with endpoint access configured explicitly.
-- **Billing wired end to end.** Checkout sessions and Stripe webhooks are real route handlers, not placeholders.
-
-<br>
-
-### Repeat-Purchase Churn Prediction
-
-[![Top language](https://img.shields.io/github/languages/top/Naresh23032003/MLME?style=flat-square&labelColor=0D1117&color=8B5CF6)](https://github.com/Naresh23032003/MLME) [![Last commit](https://img.shields.io/github/last-commit/Naresh23032003/MLME?style=flat-square&labelColor=0D1117&color=A855F7)](https://github.com/Naresh23032003/MLME/commits/main) [![Tests](https://img.shields.io/badge/Tests-124-6366F1?style=flat-square&labelColor=0D1117)](https://github.com/Naresh23032003/MLME) [![Serving](https://img.shields.io/badge/p95-1.66%20ms-22D3EE?style=flat-square&labelColor=0D1117)](https://github.com/Naresh23032003/MLME)
-
-**[Naresh23032003/MLME](https://github.com/Naresh23032003/MLME)** — a mini production ML system that predicts which active wholesale customers will place no order in the next 90 days, so a small retention team spends its limited contact capacity on the accounts most likely to be lost. The model is the smallest part; the system around it is the point.
-
-| Layer | Detail |
-|:--|:--|
-| **Pipeline** | Batch ingestion with validation, one shared feature module used by both training and serving, chronological splits with a 90-day embargo |
-| **Governance** | Five-rule promotion gate, versioned registry with one-command rollback, training and serving parity check |
-| **Serving** | FastAPI with health, readiness, model and metrics endpoints, batch scorer, Docker image |
-| **Monitoring** | PSI drift across the live feature table, retraining trigger that distinguishes real drift from a data fault |
-
-- **Chronology respected.** 128,693 (customer, snapshot) rows across 43 weekly snapshots, split strictly in time; the 24 snapshots that fall inside the embargo gaps are discarded rather than quietly reassigned.
-- **The gate is not a formality.** The candidate passes all five rules, and the design document still argues the simpler logistic baseline is the better production choice, because +0.0006 ROC AUC does not pay for worse calibration and top-decile precision.
-- **Latency measured over real HTTP.** 1.39 ms average and 1.66 ms p95 sequential, 1,438 rows/s in batch; pinning inference to a single compute thread cut p50 single-row scoring from 2.83 ms to 0.66 ms.
-- **Monitoring that can say "do not retrain".** The live check returns `TRIGGER_RETRAINING`; inject a null flood and it returns `PAGE_DATA_ENGINEERING` instead, blocking retraining on corrupt input.
-
-<br>
-
-### GenAI-Driven Intelligent Email Ticketing
-
-[![Top language](https://img.shields.io/github/languages/top/Naresh23032003/GenAI-Driven-Intelligent-Email-Ticketing?style=flat-square&labelColor=0D1117&color=8B5CF6)](https://github.com/Naresh23032003/GenAI-Driven-Intelligent-Email-Ticketing) [![License](https://img.shields.io/github/license/Naresh23032003/GenAI-Driven-Intelligent-Email-Ticketing?style=flat-square&labelColor=0D1117&color=22D3EE)](https://github.com/Naresh23032003/GenAI-Driven-Intelligent-Email-Ticketing/blob/main/LICENSE) [![Local LLM](https://img.shields.io/badge/Local%20LLM-Ollama%20Llama%203-000000?style=flat-square&logo=ollama&logoColor=white&labelColor=0D1117)](https://ollama.com) [![Demo](https://img.shields.io/badge/Demo-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white&labelColor=0D1117)](https://www.youtube.com/watch?v=66db5RdDg58)
-
-**[Naresh23032003/GenAI-Driven-Intelligent-Email-Ticketing](https://github.com/Naresh23032003/GenAI-Driven-Intelligent-Email-Ticketing)** — support-inbox triage that parses incoming email, scores sentiment with rule-based detection plus a locally hosted Llama 3, maps complaints onto an issue dictionary, and routes each ticket to the responsible team behind a Streamlit analytics dashboard.
-
-| Layer | Detail |
-|:--|:--|
-| **Stack** | Python, Streamlit, Ollama Llama 3, SQLAlchemy, NLTK, scikit-learn, pandas |
-| **Data** | A 500-email sample dataset ships with the repo so the pipeline is reproducible |
-| **Outcome** | Basis for a paper accepted at ICACECS 2025, published by Springer Nature |
-
-<br>
-
-<details>
-<summary><b>More repositories</b></summary>
-
-<br>
-
-| Repository | What it is | Stack |
-|:--|:--|:--|
-| [naresh-portfolio](https://github.com/Naresh23032003/naresh-portfolio) | The site behind [naresh-ai.com](https://naresh-ai.com), a single hand-written page on GitHub Pages with a custom domain | HTML, CSS |
-| [portfolio](https://github.com/Naresh23032003/portfolio) | Full-stack portfolio build with a typed API layer and a component system | React 19, Vite, Express 5, Drizzle ORM, Postgres, Tailwind, Radix UI, Framer Motion |
-| [PDF-Chat](https://github.com/Naresh23032003/PDF-Chat) | Question answering over uploaded PDFs, an early retrieval build | Streamlit, LangChain, PyPDF2, Google Generative AI |
-| [GPT-3.5-Chat-Bot](https://github.com/Naresh23032003/GPT-3.5-Chat-Bot) | Conversational chat interface over a hosted model, answering in real time | Python, Streamlit, OpenAI API |
-| [Gender-Classification](https://github.com/Naresh23032003/Gender-Classification) | CNN image classifier trained from scratch, written as a readable notebook | PyTorch, torchvision |
-| [Sentiment Analysis and Text Feature Extraction](https://github.com/Naresh23032003/Sentiment-Analysis-and-Text-Feature-Extraction-of-Online-Content) | Scraping and NLP feature pipeline over online content, with a written report | Python, BeautifulSoup, NLTK, pandas |
-| [Automated-grading-and-feedback](https://github.com/Naresh23032003/Automated-grading-and-feedback) | Descriptive-answer grading platform with separate instructor and student portals | PHP, MySQL, Python, FPDF |
-| [Naresh-website](https://github.com/Naresh23032003/Naresh-website) | The first version of my personal site, before the hand-written one | Python, Streamlit |
-| [Startup-Profit-Prediction](https://github.com/Naresh23032003/Startup-Profit-Prediction) · [Linear-regression](https://github.com/Naresh23032003/Linear-regression) · [PCA](https://github.com/Naresh23032003/PCA) | Compact, single-purpose implementations of core ML techniques | Python, scikit-learn, NumPy |
+- **No path from a model to a shell.** Agents pick a `catalog_key` from a closed, typed action catalog. The executor never imports LLM code.
+- **A policy gate on every action.** Green runs, yellow opens a veto window, red waits for an Ed25519-signed human approval.
+- **A log you can check, not just read.** Every event is `sha256(prev_hash ‖ canonical_json)`, and `verify-chain` recomputes the whole log on demand.
+- **Try it offline, no API key:** `git clone https://github.com/Naresh23032003/AEGIS && cd AEGIS && cp .env.example .env && make up`
 
 </details>
 
-<img src="assets/divider.svg" width="100%" alt="">
+<details>
+<summary><b>Nikki</b> · local AI companion · FastAPI, Ollama, ChromaDB, React PWA, faster-whisper, Kokoro, RVC</summary>
 
-## 04 Research
+<br>
 
-Four peer-reviewed papers, and a working habit that does not stop at the paper: the engineering repositories on this profile are run as experiments, with a fixed evaluation set, an ablation, and a result reported whether or not it flatters the system.
+A self-hosted companion with streaming chat, long-term memory, voice notes, hands-free calls with a lip-synced avatar, and a WhatsApp bridge, all on a 6 GB GPU.
 
-**Peer-reviewed publications**
+- **Two-tier routing.** Personal data stays local. An optional cloud tier is budget-capped, can be switched off from config, and logs every outbound payload.
+- **Guards in code, not prompts.** Replies that claim actions that never ran get regenerated, and price or news claims with no tool behind them get stripped.
+- **91 deterministic evals gate every push**, with no model in the loop: router 64/64, tone 10/10, temporal memory 9/9, journal 8/8.
+- **Try it:** `git clone https://github.com/Naresh23032003/Nikki-AI-Companion && cd Nikki-AI-Companion && docker compose up --build`
 
-| Year | Paper | Venue | Record |
-|:--|:--|:--|:--|
-| 2025 | GenAI-Driven Intelligent Email Ticketing for Sentiment-Aware Customer Support | ICACECS 2025, Springer Nature, *Smart Innovation, Systems and Technologies* | [code](https://github.com/Naresh23032003/GenAI-Driven-Intelligent-Email-Ticketing) · [demo](https://www.youtube.com/watch?v=66db5RdDg58) |
-| 2025 | Automated Assessment of Fruit Quality Using Transfer Learning and MobileNetV2 | International Journal for Research in Applied Science and Engineering Technology, 13(IV) | [DOI](https://doi.org/10.22214/ijraset.2025.68187) |
-| 2025 | Enhancing Sentiment Analysis on Amazon Reviews Using Ensemble Learning Models | International Journal of Innovative Research in Technology, 11(8), 3349–3354 | [paper](https://ijirt.org/Article?manuscript=172458) |
-| 2024 | Optimizing Delivery Operations in Dynamic Urban Environments: A Comprehensive Model | Society of Operations Management, XXVII Annual International Conference | — |
+</details>
 
-The papers are collaborative work, with authorship as printed on each linked record. Everything in sections 02 and 03 is solo.
+<details>
+<summary><b>Churn ML system</b> · production ML · Python, scikit-learn, FastAPI, Docker</summary>
 
-**What I work on**
+<br>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+Predicts which wholesale customers will stop ordering in the next 90 days, so a small retention team calls the right accounts. The model is the smallest part.
 
-**Reliability and evaluation of agentic systems**
+- **Chronology respected.** 128,693 rows across 43 weekly snapshots, split strictly in time with a 90-day embargo.
+- **A gate that isn't a formality.** The candidate passes all five promotion rules, and the design doc still argues for the simpler baseline: +0.0006 ROC AUC doesn't pay for worse calibration.
+- **Monitoring that can say "don't retrain".** Real drift returns `TRIGGER_RETRAINING`; a null flood returns `PAGE_DATA_ENGINEERING` instead.
+- **Reproduce everything:** `make setup && make all` (about three minutes, 124 tests).
 
-The gap between what an agent outputs and what it actually did. Tool-use telemetry as ground truth for whether reasoning happened, constrained action spaces as an enforced property rather than an instruction, and evaluation sets that a model cannot pass by pattern-matching the prompt.
+</details>
 
-</td>
-<td width="50%" valign="top">
+<details>
+<summary><b>Pocket Professor</b> · voice-first learning · Expo, React Native, Supabase, Deno, Groq</summary>
 
-**Verification and abstention in retrieval**
+<br>
 
-Tracing a generated figure back to the span that supports it, and abstaining when no such span exists. Hybrid dense and sparse retrieval, table extraction from documents that were never meant to be parsed, and cross-encoder re-ranking under an air-gap constraint.
+Paste a YouTube link or a PDF and get notes and flashcards, then answer out loud while an LLM grades what you actually said.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+- **Real spaced repetition:** FSRS via `ts-fsrs` at 0.9 target retention.
+- **The quiz loop is a state machine,** with a 2.5 s budget for spoken feedback and tap-to-override grades.
+- **Row-level security on every table**, and the Groq key never leaves an edge function. Every spoken step has a text twin, so it still works muted.
 
-**Inference under hard resource constraints**
+</details>
 
-What is actually reachable inside a 6 GB VRAM budget when chat, embeddings, speech recognition, synthesis and voice conversion all have to coexist. Quantisation, keep-alive and residency tradeoffs measured against failures rather than assumed.
+<details>
+<summary><b>Insight Pulse</b> · cloud infrastructure · Next.js, Terraform, AWS EKS, GitHub Actions, Stripe</summary>
 
-</td>
-<td width="50%" valign="top">
+<br>
 
-**Auditability of automated decisions**
+A SaaS taken all the way to managed Kubernetes, with the infrastructure defined as code rather than clicked together.
 
-Hash-chained decision logs, signed human approvals, and evidence artifacts a third party can verify without trusting the system's own account of itself. Also drift monitoring that separates genuine distribution shift from an upstream data fault.
+- **Terraform** builds a VPC with private subnets and an EKS 1.31 cluster whose node groups scale from 1 to 3.
+- **Every deploy is pinned to a commit SHA**, so a rollback is a tag change, not a rebuild.
+- **Billing wired end to end:** Clerk auth, Stripe checkout and real webhook handlers.
 
-</td>
-</tr>
-</table>
+</details>
 
-**Open questions I am currently working through, in public repositories**
+<details>
+<summary><b>product-factory-skills</b> · agent skills · Claude Code plugin, works in Codex, Copilot, Cursor, Antigravity</summary>
 
-- **Does a diagnosis agent read the evidence it is given?** In AEGIS the trace-query tool has been called zero times across 29 live diagnoses and three development phases. Four of five diagnoses answered on turn one with no tool call at all. The evidence layer exists and the model ignores it, which is a measurement about tool-use incentives rather than a bug in the tool.
-- **How much of an agent's apparent competence is the prompt?** Removing the fault descriptions and named fixes from the AEGIS prompts moved the model from naming a fault at 0.8 confidence to restating the symptom at 0.0. The ablation is the result: what looked like diagnosis was retrieval from the instructions.
-- **When is a better model not worth promoting?** The churn system's candidate wins on ROC AUC by 0.0006 while losing on calibration and top-decile precision. The design document argues the gate should require a material gain, not a positive sign.
-- **Can retrieval be made to decline?** The air-gapped compliance work turns on a verifier that traces every figure to a source or abstains, which makes abstention a measurable outcome rather than a failure mode.
+<br>
 
-**How I run an experiment**
+Eight `SKILL.md` skills that take a product from idea to launch: pain mining, idea validation, spec, agent task writing, security scanning, README and demo, launch playbook, and AARRR metrics. Each one has a cited method and an exit check.
 
-Fixed evaluation sets that execute with no model in the loop, so any reader with the repository reproduces the number. Ablation before attribution. Held-out blocks split strictly in time with an embargo between them. Promotion gates committed before the results are known. And negative results published in the same README as the positive ones, at the same size.
+**Install:** `/plugin marketplace add Naresh23032003/product-factory-skills`, then `/plugin install product-factory@product-factory`
 
-<img src="assets/divider.svg" width="100%" alt="">
+</details>
 
-## 05 Receipts
+<br>
 
-Claims on this page are checkable in the repositories. A sample, with where to look.
+## Receipts
 
-| Claim | Number | Where it is verifiable |
+Anyone can claim quality. These are numbers, and each one lives in a file.
+
+<p align="center"><img src="assets/receipt.svg" width="400" alt="Receipts. Nikki evals 91 of 91; Nikki VRAM budget 6 GB; RVC latency 2000 to 300 ms per chunk; AEGIS MTTR 21 to 136 s; AEGIS cost up to $0.003 per incident; prompt-leak ablation 0.8 to 0.0; trace queries used 0 of 29; churn p95 latency 1.66 ms; churn test suite 124"></p>
+
+<details>
+<summary><b>Where to check each line</b></summary>
+
+<br>
+
+| Line | Where |
+|:--|:--|
+| Nikki evals, VRAM budget, RVC latency | `tests/run_evals.py`, `config.yaml`, [Nikki README](https://github.com/Naresh23032003/Nikki-AI-Companion#benchmarks-and-evals) |
+| AEGIS MTTR and cost per incident | `docs/reports/PHASE_6_REPORT.md` |
+| Prompt-leak ablation, trace queries | Phase 12 and 13 reports, `FINAL_VERIFICATION.md` |
+| Churn latency and tests | `artifacts/benchmarks/`, `make test` |
+
+</details>
+
+The bad numbers stay on too. The AEGIS agent called its trace-query tool 0 times in 29 live diagnoses, so it was never really reading its evidence. Its latency scenario still fails: the root cause, a rule-id and query-key mismatch, is now fixed, and the test stays red until its fixture is re-recorded.
+
+<br>
+
+## Research
+
+I run the engineering repos like experiments: a fixed eval set, an ablation, and a result I report even when it's unflattering. The best finding in AEGIS is a negative one. Once I stripped the answers out of the prompt, the agent went from naming faults at 0.8 confidence to restating symptoms at 0.0. It had been reading the prompt, not diagnosing.
+
+| | Paper | Where |
 |:--|:--|:--|
-| Deterministic evals gate every push in Nikki | 91 assertions, no model in the loop | `evals/` and the CI workflow |
-| Nikki fits a consumer GPU | 6 GB VRAM budget, whole voice stack included | `config.yaml`, argued per setting |
-| RVC call latency after caching the pitch model | ~2000 ms → ~300 ms per chunk | Nikki call path notes |
-| AEGIS incidents on a measured model set | MTTR 21–136 s, $0.0015–$0.0030 per incident | `docs/reports/PHASE_6_REPORT.md` |
-| AEGIS audit log is tamper-evident | `sha256(prev_hash ‖ canonical_json)` per event | `GET /api/incidents/{id}/verify-chain` |
-| Prompt-leak ablation in AEGIS | 0.8 → 0.0 stated confidence once the answers left the prompt | Phase 12 and 13 reports |
-| Evidence tools the agent never used | 0 trace queries across 29 live diagnoses | `FINAL_VERIFICATION.md` |
-| Churn system serving latency | 1.66 ms p95, against a 150 ms objective | `artifacts/benchmarks/`, real HTTP |
-| Churn system test suite | 124 tests, `make test` from a clean checkout | `tests/` |
-| Insight Pulse deploys are reversible | Every image pinned to a commit SHA | `.github/workflows/deploy.yml` |
-
-Where a number is worse than it should be, it is still written down: AEGIS ships with a failing scenario test and a README section explaining exactly which two-word mismatch causes it.
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-## 06 How I Build
-
-The same request path shows up in most of my AI work: deterministic code decides, the model only fills the parts that need language, and nothing is returned or executed without passing a guard that leaves a trace.
-
-```mermaid
-flowchart LR
-    A[Input] --> B{Deterministic router}
-    B -->|default| C[Local model]
-    B -->|exception, budgeted| D[Hosted model]
-    C --> E[Guards and policy in code]
-    D --> E
-    E --> F[Act, answer, or abstain honestly]
-    E -.-> G[(Hash-chained audit log)]
-```
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**Local first, cloud by exception**
-
-Ollama, ChromaDB and SQLite are the default path in the AI repositories. When a hosted model is genuinely needed it is routed to explicitly, capped by a daily budget, logged to an audit file, and switchable off in one line.
-
-</td>
-<td width="50%" valign="top">
-
-**Determinism where it matters**
-
-Routing, guard behaviour, detection rules and temporal logic are tested with no model in the loop, so CI can gate them on every push. Model-backed evals exist too, but behind a separate flag.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**Agency behind a typed catalog**
-
-An agent proposes; a closed, typed action catalog and a policy engine decide. Low risk executes, medium opens a veto window, high blocks on a signed human approval. There is no path from generated text to a shell.
-
-</td>
-<td width="50%" valign="top">
-
-**Evidence over assertion**
-
-Decisions are hash-chained, approvals are signed, and an incident or a release can be exported as a document someone else could audit without trusting my summary of it.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**Constraints written down**
-
-`config.yaml` in Nikki reads as a decision log. Each setting carries the measurement that produced it, including the VRAM figures that disqualified an otherwise better extraction model.
-
-</td>
-<td width="50%" valign="top">
-
-**Graceful degradation by default**
-
-Lazy imports let the lite image boot with no GPU stack. Render timeouts fall back to a faster engine. A failed cloud call becomes a queued task, never a fabricated answer.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**Infrastructure as code**
-
-Terraform describes the VPC and the EKS cluster. Kubernetes manifests live beside the app. Actions builds, pushes to ECR, and patches deployments by commit SHA.
-
-</td>
-<td width="50%" valign="top">
-
-**Security in the schema**
-
-Row-level security on every Supabase table, provider keys confined to edge functions, signing keys held in the browser rather than the server, secrets kept out of the repository.
-
-</td>
-</tr>
-</table>
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-## 07 Stack
-
-Everything below appears in the repositories linked above.
-
-<div align="center">
-
-**Languages**
-
-<img src="https://skillicons.dev/icons?i=python,typescript,javascript,cpp,c,r,bash&theme=dark&perline=7" alt="Python, TypeScript, JavaScript, C++, C, R, Bash">
-
-**AI, LLM and Agent Systems**
-
-<a href="https://ollama.com"><img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white&labelColor=0D1117" alt="Ollama"></a> <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square" alt="Groq"> <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white&labelColor=0D1117" alt="Google Gemini"> <img src="https://img.shields.io/badge/ChromaDB-FF6B4A?style=flat-square" alt="ChromaDB"> <a href="https://www.langchain.com/langgraph"><img src="https://img.shields.io/badge/LangGraph%20%C2%B7%20LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white&labelColor=0D1117" alt="LangGraph and LangChain"></a> <img src="https://img.shields.io/badge/RAG%20%C2%B7%20Re--ranking-6366F1?style=flat-square" alt="RAG and re-ranking"> <img src="https://img.shields.io/badge/faster--whisper-4A9BD8?style=flat-square" alt="faster-whisper"> <img src="https://img.shields.io/badge/Kokoro%20TTS-EC4899?style=flat-square" alt="Kokoro TTS"> <img src="https://img.shields.io/badge/XTTS--v2%20%C2%B7%20RVC-8B5CF6?style=flat-square" alt="XTTS-v2 and RVC"> <img src="https://img.shields.io/badge/nomic--embed--text-22D3EE?style=flat-square" alt="nomic-embed-text">
-
-**Backend and Frontend**
-
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs,expressjs,nextjs,react,vite,tailwindcss&theme=dark&perline=7" alt="FastAPI, Node.js, Express, Next.js, React, Vite, Tailwind CSS">
-
-<a href="https://expo.dev"><img src="https://img.shields.io/badge/Expo%20%C2%B7%20React%20Native-000020?style=flat-square&logo=expo&logoColor=white&labelColor=0D1117" alt="Expo and React Native"></a> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white&labelColor=0D1117" alt="Streamlit"> <img src="https://img.shields.io/badge/Server--Sent%20Events%20%C2%B7%20WebSockets-6366F1?style=flat-square" alt="Server-Sent Events and WebSockets"> <img src="https://img.shields.io/badge/Clerk-6C47FF?style=flat-square&logo=clerk&logoColor=white&labelColor=0D1117" alt="Clerk"> <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white&labelColor=0D1117" alt="Stripe">
-
-**Data and Storage**
-
-<img src="https://skillicons.dev/icons?i=postgresql,sqlite,supabase,redis&theme=dark&perline=4" alt="PostgreSQL, SQLite, Supabase, Redis">
-
-<img src="https://img.shields.io/badge/Drizzle%20ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black&labelColor=0D1117" alt="Drizzle ORM"> <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white&labelColor=0D1117" alt="SQLAlchemy"> <img src="https://img.shields.io/badge/Row%20Level%20Security-3ECF8E?style=flat-square" alt="Row Level Security"> <img src="https://img.shields.io/badge/JSON%20Schema%20contracts-A855F7?style=flat-square" alt="JSON Schema contracts">
-
-**Machine Learning**
-
-<img src="https://skillicons.dev/icons?i=pytorch,scikitlearn&theme=dark&perline=2" alt="PyTorch, scikit-learn">
-
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white&labelColor=0D1117" alt="NumPy"> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white&labelColor=0D1117" alt="pandas"> <img src="https://img.shields.io/badge/NLTK-3B7EA1?style=flat-square" alt="NLTK"> <img src="https://img.shields.io/badge/Demucs-A855F7?style=flat-square" alt="Demucs"> <img src="https://img.shields.io/badge/Model%20registry%20%C2%B7%20PSI%20drift-6366F1?style=flat-square" alt="Model registry and PSI drift">
-
-**Cloud, Infrastructure and Tooling**
-
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,aws,githubactions,linux,git,vercel,postman&theme=dark&perline=9" alt="Docker, Kubernetes, Terraform, AWS, GitHub Actions, Linux, Git, Vercel, Postman">
-
-<img src="https://img.shields.io/badge/Amazon%20EKS%20%C2%B7%20ECR-FF9900?style=flat-square" alt="Amazon EKS and ECR"> <a href="https://www.openpolicyagent.org"><img src="https://img.shields.io/badge/OPA%20%C2%B7%20Rego-7D9199?style=flat-square&logo=openpolicyagent&logoColor=white&labelColor=0D1117" alt="Open Policy Agent and Rego"></a> <a href="https://opentelemetry.io"><img src="https://img.shields.io/badge/OpenTelemetry%20%C2%B7%20Grafana%20LGTM-F46800?style=flat-square&logo=opentelemetry&logoColor=white&labelColor=0D1117" alt="OpenTelemetry and Grafana LGTM"></a> <img src="https://img.shields.io/badge/Toxiproxy%20chaos-22D3EE?style=flat-square" alt="Toxiproxy chaos injection"> <img src="https://img.shields.io/badge/Ed25519%20signing-8B5CF6?style=flat-square" alt="Ed25519 signing"> <img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=githubpages&logoColor=white&labelColor=0D1117" alt="GitHub Pages"> <img src="https://img.shields.io/badge/Ruff%20%C2%B7%20mypy-D7FF64?style=flat-square&logo=ruff&logoColor=black&labelColor=0D1117" alt="Ruff and mypy"> <img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white&labelColor=0D1117" alt="ESLint">
-
-</div>
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-## 08 Experience
-
-| Role | Organisation | Period | Work |
-|:--|:--|:--|:--|
-| Forward Deployed Engineer | VaultStack AI, consulting engagement | Jun 2026 to present | On-premise, air-gapped RAG for financial compliance due diligence, running fully offline on self-hosted models. Hybrid dense and sparse retrieval with Docling table extraction, BGE-M3 and cross-encoder re-ranking, a deterministic scope planner resolved in code, and a verifier that traces every figure to source or abstains. |
-| AI Decision Science Analyst | Accenture | Jan 2025 to Apr 2026 | Multi-agent decision platform for manufacturing and production planning, MILP supply chain tooling with CPLEX and Gurobi behind a Django and React stack, Databricks and Azure Data Factory pipeline remediation, and production-ready customer segmentation with PCA and clustering. |
-| Product Development Intern | Razorpay | Jul 2024 to Oct 2024 | Automated personalised PDF report generation, integrated scripts for 200 or more merchants with A/B testing, and built an admin dashboard feature that removed about four hours of manual work per merchant. |
-| Machine Learning Intern | TVS Electronics | May 2024 to Jul 2024 | Retrieval-augmented generation over service data on AWS Bedrock with Llama 3, plus an NLP cleaning pipeline and a Streamlit prototype for surfacing top solutions. |
-
-Earlier: Generative AI Intern at Tecnod8, Software Development Intern at Razorpay, Summer Intern at Royal Enfield. Full history in the [resume](https://naresh-ai.com/resume.pdf).
-
-**Education**
-
-<img src="https://img.shields.io/badge/M.Sc%20Data%20Science%20%26%20AI-BITS%20Pilani-6366F1?style=flat-square&labelColor=0D1117" alt="M.Sc Data Science and AI, BITS Pilani"> <img src="https://img.shields.io/badge/B.Tech%20%2B%20MBA%20Dual%20Degree-IIT%20Madras-8B5CF6?style=flat-square&labelColor=0D1117" alt="B.Tech and MBA Dual Degree, IIT Madras"> <img src="https://img.shields.io/badge/AWS%20Certified-AI%20%26%20Cloud%20Practitioner-FF9900?style=flat-square&labelColor=0D1117" alt="AWS Certified AI Practitioner and Cloud Practitioner">
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-## 09 Activity
-
-<div align="center">
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Naresh23032003&theme=github_dark"><source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Naresh23032003&theme=default"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Naresh23032003&theme=github_dark" alt="GitHub profile summary" width="92%"></picture>
-
-<br><br>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Naresh23032003&theme=github_dark"><source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Naresh23032003&theme=default"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Naresh23032003&theme=github_dark" alt="Languages by repository" width="41%"></picture> &nbsp;&nbsp; <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Naresh23032003&theme=github_dark"><source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Naresh23032003&theme=default"><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Naresh23032003&theme=github_dark" alt="Languages by commit" width="41%"></picture>
-
-<br><br>
-
-<img src="https://streak-stats.demolab.com/?user=Naresh23032003&hide_border=true&background=00000000&stroke=6366F1&ring=8B5CF6&fire=22D3EE&currStreakLabel=8B5CF6&currStreakNum=A855F7&sideLabels=768390&sideNums=768390&dates=768390&excludeDaysLabel=768390" alt="GitHub streak" width="70%">
-
-<br><br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Naresh23032003&bg_color=00000000&color=8B5CF6&line=6366F1&point=22D3EE&title_color=8B5CF6&area_color=6366F1&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" width="98%">
+| 2026 | Where does the Indonesian cryptocurrency premium come from? *Sole author, working paper* | [replication package](https://github.com/Naresh23032003/idr-stablecoin-fx-basis) |
+| 2025 | GenAI-Driven Intelligent Email Ticketing for Sentiment-Aware Customer Support | ICACECS 2025, Springer Nature · [code](https://github.com/Naresh23032003/GenAI-Driven-Intelligent-Email-Ticketing) |
+| 2025 | Automated Assessment of Fruit Quality Using Transfer Learning and MobileNetV2 | IJRASET 13(IV) · [DOI](https://doi.org/10.22214/ijraset.2025.68187) |
+| 2025 | Enhancing Sentiment Analysis on Amazon Reviews Using Ensemble Learning Models | IJIRT 11(8) · [paper](https://ijirt.org/Article?manuscript=172458) |
+| 2024 | Optimizing Delivery Operations in Dynamic Urban Environments | Society of Operations Management, XXVII Annual Conference |
+
+<sub>Full record on [ORCID](https://orcid.org/0009-0000-0735-2066). The papers before 2026 are collaborative, with authors as printed on each record. Every repository on this page is solo.</sub>
+
+<details>
+<summary><b>Questions I'm working on now</b></summary>
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Naresh23032003/Naresh23032003/output/snake-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Naresh23032003/Naresh23032003/output/snake-light.svg"><img src="https://raw.githubusercontent.com/Naresh23032003/Naresh23032003/output/snake-dark.svg" alt="Contribution snake animation" width="98%"></picture>
+- **Does a diagnosis agent actually read the evidence?** Four of five AEGIS diagnoses answered on turn one with no tool call at all. That's a finding about tool-use incentives, not a bug in the tool.
+- **When is a better model not worth promoting?** The churn candidate beats the baseline by 0.0006 ROC AUC but loses on calibration and top-decile precision. A promotion gate should demand a material gain, not just a positive one.
+- **Can retrieval learn to say no?** In air-gapped compliance RAG, a verifier traces every figure back to its source or abstains, so abstention becomes something you can measure instead of a failure.
+- **Where does a crypto premium come from?** Splitting the Indodax bitcoin premium over JISDOR into a crypto leg and a USDT/IDR stablecoin–FX leg, 2021–2026, on 616k five-minute bars.
 
-</div>
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-## 10 Contact
-
-<div align="center">
-
-Open to conversations about applied AI systems, agent safety and evaluation, retrieval, and full-stack product work.
+</details>
 
 <br>
 
-<a href="mailto:rnaresh23032003@gmail.com"><img src="https://img.shields.io/badge/rnaresh23032003%40gmail.com-22D3EE?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email"></a> <a href="https://linkedin.com/in/naresh23"><img src="https://img.shields.io/badge/linkedin.com%2Fin%2Fnaresh23-0A66C2?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D&labelColor=0D1117" alt="LinkedIn"></a> <a href="https://naresh-ai.com"><img src="https://img.shields.io/badge/naresh--ai.com-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0D1117" alt="Website"></a>
+## The path
+
+<img src="assets/path.svg" width="100%" alt="Career path: internships at Royal Enfield, Tecnod8 and Razorpay; TVS Electronics ML intern May 2024; Razorpay product development intern July 2024; Accenture AI decision science analyst January 2025; VaultStack AI forward deployed engineer since June 2026">
+
+<details>
+<summary><b>What I did in each role</b></summary>
 
 <br>
 
-<sub>Every project on this profile is designed, built and maintained solely by <b>Naresh R</b>.</sub>
+- **VaultStack AI · Forward Deployed Engineer · Jun 2026 – now.** Air-gapped RAG for financial compliance due diligence, running fully offline on self-hosted models: hybrid dense and sparse retrieval, Docling table extraction, BGE-M3 with cross-encoder re-ranking, and a verifier that traces every figure to its source or abstains.
+- **Accenture · AI Decision Science Analyst · Jan 2025 – Apr 2026.** A multi-agent decision platform for production planning, MILP supply-chain tooling with CPLEX and Gurobi behind Django and React, Databricks and Azure Data Factory pipeline fixes, and customer segmentation in production.
+- **Razorpay · Product Development Intern · Jul – Oct 2024.** Automated personalised PDF reports for 200+ merchants with A/B testing, and an admin dashboard feature that saved about four hours of manual work per merchant.
+- **TVS Electronics · ML Intern · May – Jul 2024.** RAG over service data on AWS Bedrock with Llama 3, plus an NLP cleaning pipeline and a Streamlit prototype.
+- **Earlier:** Generative AI intern at Tecnod8, software development intern at Razorpay, summer intern at Royal Enfield.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:A855F7,100:22D3EE&height=140&section=footer&reversal=false" alt="" width="100%">
+</details>
 
-</div>
+<sub>M.Sc Data Science & AI, BITS Pilani · B.Tech + MBA dual degree, IIT Madras · AWS Certified AI and Cloud Practitioner · [full résumé](https://naresh-ai.com/resume.pdf)</sub>
+
+<br>
+
+## Toolkit
+
+<img src="https://skillicons.dev/icons?i=python,typescript,react,nextjs,fastapi,nodejs,postgres,redis,supabase,docker,kubernetes,terraform,aws,githubactions,pytorch,sklearn,linux,git&theme=dark&perline=9" alt="Python, TypeScript, React, Next.js, FastAPI, Node.js, Postgres, Redis, Supabase, Docker, Kubernetes, Terraform, AWS, GitHub Actions, PyTorch, scikit-learn, Linux, Git">
+
+<sub>Also Ollama, ChromaDB, LangGraph, OPA/Rego, OpenTelemetry, faster-whisper and Kokoro. At work: Azure, Databricks, CPLEX, Gurobi.</sub>
+
+<br>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Naresh23032003/Naresh23032003/output/snake-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Naresh23032003/Naresh23032003/output/snake-light.svg"><img src="https://raw.githubusercontent.com/Naresh23032003/Naresh23032003/output/snake-dark.svg" alt="Contribution graph animation" width="100%"></picture>
+
+## Let's talk
+
+If you're putting an agent anywhere near production systems, building retrieval that must not invent numbers, or shipping a model that needs a real promotion gate, I've done each of those and I'm glad to compare notes.
+
+**[rnaresh23032003@gmail.com](mailto:rnaresh23032003@gmail.com)** · [LinkedIn](https://linkedin.com/in/naresh23) · [naresh-ai.com](https://naresh-ai.com)

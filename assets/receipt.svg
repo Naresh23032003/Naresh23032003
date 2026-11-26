@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="842" viewBox="0 0 600 842" fill="none" role="img" aria-label="Receipts, claims checkable in the repositories: Nikki evals, no model: 91 / 91; Nikki VRAM budget: 6 GB; RVC latency / chunk: 2000→300 ms; AEGIS MTTR: 21–136 s; AEGIS cost / incident: ≤ $0.003; Prompt-leak ablation: 0.8 → 0.0; Trace queries used: 0 / 29; Churn p95 latency: 1.66 ms; Churn test suite: 124">
+<title>Receipts, claims checkable in the repositories: Nikki evals, no model: 91 / 91; Nikki VRAM budget: 6 GB; RVC latency / chunk: 2000→300 ms; AEGIS MTTR: 21–136 s; AEGIS cost / incident: ≤ $0.003; Prompt-leak ablation: 0.8 → 0.0; Trace queries used: 0 / 29; Churn p95 latency: 1.66 ms; Churn test suite: 124</title>
+<style>
+.s{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif} .m{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+
+.ln{animation:print .35s steps(4) both}
+@keyframes print{from{opacity:0;transform:translateY(-8px)}}
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<path d="M0 15.0 L14 8 L28 15.0 L42 8 L56 15.0 L70 8 L84 15.0 L98 8 L112 15.0 L126 8 L140 15.0 L154 8 L168 15.0 L182 8 L196 15.0 L210 8 L224 15.0 L238 8 L252 15.0 L266 8 L280 15.0 L294 8 L308 15.0 L322 8 L336 15.0 L350 8 L364 15.0 L378 8 L392 15.0 L406 8 L420 15.0 L434 8 L448 15.0 L462 8 L476 15.0 L490 8 L504 15.0 L518 8 L532 15.0 L546 8 L560 15.0 L574 8 L588 15.0 L602 8 L600 834 602 834 L588 827.0 L574 834 L560 827.0 L546 834 L532 827.0 L518 834 L504 827.0 L490 834 L476 827.0 L462 834 L448 827.0 L434 834 L420 827.0 L406 834 L392 827.0 L378 834 L364 827.0 L350 834 L336 827.0 L322 834 L308 827.0 L294 834 L280 827.0 L266 834 L252 827.0 L238 834 L224 827.0 L210 834 L196 827.0 L182 834 L168 827.0 L154 834 L140 827.0 L126 834 L112 827.0 L98 834 L84 827.0 L70 834 L56 827.0 L42 834 L28 827.0 L14 834 L0 827.0 Z" fill="#F4F1EA"/>
+<text x="300.0" y="82" class="m" font-size="34" font-weight="700" fill="#1F2328" text-anchor="middle" letter-spacing="6">RECEIPTS</text>
+<text x="300.0" y="116" class="m" font-size="18" font-weight="400" fill="#6E7781" text-anchor="middle" >claims you can check in the repos</text>
+<text x="300.0" y="144" class="m" font-size="16" font-weight="400" fill="#6E7781" text-anchor="middle" >github.com/Naresh23032003 · nov 2026</text>
+<line x1="40" y1="176" x2="560" y2="176" stroke="#1F2328" stroke-dasharray="3 6"/>
+<text x="40" y="210" class="m" font-size="16" font-weight="700" fill="#6E7781" text-anchor="start" >ITEM</text>
+<text x="560" y="210" class="m" font-size="16" font-weight="700" fill="#6E7781" text-anchor="end" >VALUE</text>
+<g class="ln" style="animation-delay:0.30s"><text x="40" y="248" class="m" font-size="21" font-weight="400" fill="#1F2328" text-anchor="start" >Nikki evals, no model</text><text x="560" y="248" class="m" font-size="21" font-weight="700" fill="#1F2328" text-anchor="end" >91 / 91</text></g>
+<g class="ln" style="animation-delay:0.52s"><text x="40" y="292" class="m" font-size="21" font-weight="400" fill="#1F2328" text-anchor="start" >Nikki VRAM budget</text><text x="560" y="292" class="m" font-size="21" font-weight="700" fill="#1F2328" text-anchor="end" >6 GB</text></g>
+<g class="ln" style="animation-delay:0.74s"><text x="40" y="336" class="m" font-size="21" font-weight="400" fill="#1F2328" text-anchor="start" >RVC latency / chunk</text><text x="560" y="336" class="m" font-size="21" font-weight="700" fill="#1F2328" text-anchor="end" >2000→300 ms</text></g>
+<g class="ln" style="animation-delay:0.96s"><text x="40" y="380" class="m" font-size="21" font-weight="400" fill="#1F2328" text-anchor="start" >AEGIS MTTR</text><text x="560" y="380" class="m" font-size="21" font-weight="700" fill="#1F2328" text-anchor="end" >21–136 s</text></g>
+<g class="ln" style="animation-delay:1.18s"><text x="40" y="424" class="m" font-size="21" font-weight="400" fill="#1F2328" text-anchor="start" >AEGIS cost / incident</text><text x="560" y="424" class="m" font-size="21" font-weight="700" fill="#1F2328" text-anchor="end" >≤ $0.003</text></g>
+<g class="ln" style="animation-delay:1.40s"><text x="40" y="468" class="m" font-size="21" font-weight="400" fill="#1F2328" text-anchor="start" >Prompt-leak ablation</text><text x="560" y="468" class="m" font-size="21" font-weight="700" fill="#1F2328" text-anchor="end" >0.8 → 0.0</text></g>
+<g class="ln" style="animation-delay:1.62s"><text x="40" y="512" class="m" font-size="21" font-weight="400" fill="#1F2328" text-anchor="start" >Trace queries used</text><text x="560" y="512" class="m" font-size="21" font-weight="700" fill="#1F2328" text-anchor="end" >0 / 29</text></g>
+<g class="ln" style="animation-delay:1.84s"><text x="40" y="556" class="m" font-size="21" font-weight="400" fill="#1F2328" text-anchor="start" >Churn p95 latency</text><text x="560" y="556" class="m" font-size="21" font-weight="700" fill="#1F2328" text-anchor="end" >1.66 ms</text></g>
+<g class="ln" style="animation-delay:2.06s"><text x="40" y="600" class="m" font-size="21" font-weight="400" fill="#1F2328" text-anchor="start" >Churn test suite</text><text x="560" y="600" class="m" font-size="21" font-weight="700" fill="#1F2328" text-anchor="end" >124</text></g>
+<line x1="40" y1="636" x2="560" y2="636" stroke="#1F2328" stroke-dasharray="3 6"/>
+<g class="ln" style="animation-delay:2.48s"><text x="40" y="678" class="m" font-size="22" font-weight="700" fill="#1F2328" text-anchor="start" >TOTAL</text><text x="560" y="678" class="m" font-size="20" font-weight="700" fill="#1F2328" text-anchor="end" >every number has a file</text></g>
+<rect x="120" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="124" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="128" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="134" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="138" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="143" y="712" width="6" height="54" fill="#1F2328"/>
+<rect x="151" y="712" width="4" height="54" fill="#1F2328"/>
+<rect x="158" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="163" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="168" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="174" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="179" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="185" y="712" width="6" height="54" fill="#1F2328"/>
+<rect x="195" y="712" width="4" height="54" fill="#1F2328"/>
+<rect x="203" y="712" width="4" height="54" fill="#1F2328"/>
+<rect x="209" y="712" width="4" height="54" fill="#1F2328"/>
+<rect x="216" y="712" width="3" height="54" fill="#1F2328"/>
+<rect x="223" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="229" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="235" y="712" width="3" height="54" fill="#1F2328"/>
+<rect x="241" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="246" y="712" width="6" height="54" fill="#1F2328"/>
+<rect x="254" y="712" width="3" height="54" fill="#1F2328"/>
+<rect x="260" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="265" y="712" width="3" height="54" fill="#1F2328"/>
+<rect x="270" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="276" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="282" y="712" width="6" height="54" fill="#1F2328"/>
+<rect x="292" y="712" width="4" height="54" fill="#1F2328"/>
+<rect x="300" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="306" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="312" y="712" width="4" height="54" fill="#1F2328"/>
+<rect x="318" y="712" width="4" height="54" fill="#1F2328"/>
+<rect x="325" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="331" y="712" width="6" height="54" fill="#1F2328"/>
+<rect x="341" y="712" width="4" height="54" fill="#1F2328"/>
+<rect x="347" y="712" width="4" height="54" fill="#1F2328"/>
+<rect x="354" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="358" y="712" width="3" height="54" fill="#1F2328"/>
+<rect x="363" y="712" width="3" height="54" fill="#1F2328"/>
+<rect x="368" y="712" width="4" height="54" fill="#1F2328"/>
+<rect x="374" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="378" y="712" width="3" height="54" fill="#1F2328"/>
+<rect x="384" y="712" width="6" height="54" fill="#1F2328"/>
+<rect x="394" y="712" width="3" height="54" fill="#1F2328"/>
+<rect x="399" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="405" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="411" y="712" width="4" height="54" fill="#1F2328"/>
+<rect x="419" y="712" width="3" height="54" fill="#1F2328"/>
+<rect x="425" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="431" y="712" width="6" height="54" fill="#1F2328"/>
+<rect x="441" y="712" width="3" height="54" fill="#1F2328"/>
+<rect x="446" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="451" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="455" y="712" width="6" height="54" fill="#1F2328"/>
+<rect x="463" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="467" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="471" y="712" width="2" height="54" fill="#1F2328"/>
+<rect x="477" y="712" width="2" height="54" fill="#1F2328"/>
+<text x="300.0" y="796" class="m" font-size="15" font-weight="400" fill="#6E7781" text-anchor="middle" >unflattering numbers stay on the receipt</text>
+</svg>

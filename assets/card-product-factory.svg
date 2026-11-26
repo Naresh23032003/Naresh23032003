@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440" fill="none" role="img" aria-label="product-factory: Eight skills that take a product from idea to launch in Claude Code, Codex, Copilot and Antigravity. 8 skills, each with a cited method.">
+<title>product-factory: Eight skills that take a product from idea to launch in Claude Code, Codex, Copilot and Antigravity. 8 skills, each with a cited method.</title>
+<style>
+.s{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif} .m{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+
+.gl{animation:breathe 7s ease-in-out infinite}
+@keyframes breathe{50%{opacity:.55}}
+.nd{animation:pop 3.2s ease-in-out infinite both}
+@keyframes pop{0%,100%{fill:#0A0D14}15%{fill:#A78BFA}35%{fill:#0A0D14}}
+.bar{transform-box:fill-box;transform-origin:center;animation:eq 1.3s ease-in-out infinite both}
+@keyframes eq{50%{transform:scaleY(.35)}}
+.draw{stroke-dasharray:1;animation:draw 5s ease-in-out infinite both}
+@keyframes draw{0%{stroke-dashoffset:1}40%,100%{stroke-dashoffset:0}}
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs>
+<clipPath id="clip"><rect width="800" height="440" rx="20"/></clipPath>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0v40" stroke="#fff" stroke-opacity="0.035"/></pattern>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#A78BFA" stop-opacity="0.32"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+</defs>
+<g clip-path="url(#clip)"><rect width="800" height="440" fill="#0A0D14"/>
+<rect width="800" height="440" fill="url(#grid)"/>
+<ellipse class="gl" cx="700" cy="40" rx="320" ry="200" fill="url(#glow)"/>
+<rect x="0" y="0" width="800" height="4" fill="#A78BFA"/>
+<text x="48" y="76" class="m" font-size="22" font-weight="600" fill="#A78BFA" text-anchor="start" letter-spacing="2">AGENT SKILLS</text>
+<text x="48" y="144" class="s" font-size="62" font-weight="700" fill="#E6EDF3" text-anchor="start" letter-spacing="-1.5">product-factory</text>
+<text x="48" y="196" class="s" font-size="30" font-weight="400" fill="#C9D1D9" text-anchor="start" >Idea to launch, as eight agent skills.</text>
+<text x="48" y="330" class="s" font-size="88" font-weight="700" fill="#A78BFA" text-anchor="start" letter-spacing="-2">8</text>
+<text x="48" y="378" class="s" font-size="25" font-weight="400" fill="#8B949E" text-anchor="start" >skills, each with a cited method</text>
+<line x1="480.0" y1="280" x2="500.2857142857143" y2="280" stroke="#1E2532" stroke-width="2"/>
+<circle class="nd" style="animation-delay:0.00s" cx="470.0" cy="280" r="9" fill="#0A0D14" stroke="#A78BFA" stroke-width="2.5"/>
+<line x1="520.2857142857142" y1="280" x2="540.5714285714286" y2="280" stroke="#1E2532" stroke-width="2"/>
+<circle class="nd" style="animation-delay:0.35s" cx="510.2857142857143" cy="280" r="9" fill="#0A0D14" stroke="#A78BFA" stroke-width="2.5"/>
+<line x1="560.5714285714286" y1="280" x2="580.8571428571429" y2="280" stroke="#1E2532" stroke-width="2"/>
+<circle class="nd" style="animation-delay:0.70s" cx="550.5714285714286" cy="280" r="9" fill="#0A0D14" stroke="#A78BFA" stroke-width="2.5"/>
+<line x1="600.8571428571429" y1="280" x2="621.1428571428572" y2="280" stroke="#1E2532" stroke-width="2"/>
+<circle class="nd" style="animation-delay:1.05s" cx="590.8571428571429" cy="280" r="9" fill="#0A0D14" stroke="#A78BFA" stroke-width="2.5"/>
+<line x1="641.1428571428571" y1="280" x2="661.4285714285714" y2="280" stroke="#1E2532" stroke-width="2"/>
+<circle class="nd" style="animation-delay:1.40s" cx="631.1428571428571" cy="280" r="9" fill="#0A0D14" stroke="#A78BFA" stroke-width="2.5"/>
+<line x1="681.4285714285714" y1="280" x2="701.7142857142858" y2="280" stroke="#1E2532" stroke-width="2"/>
+<circle class="nd" style="animation-delay:1.75s" cx="671.4285714285714" cy="280" r="9" fill="#0A0D14" stroke="#A78BFA" stroke-width="2.5"/>
+<line x1="721.7142857142858" y1="280" x2="742.0000000000001" y2="280" stroke="#1E2532" stroke-width="2"/>
+<circle class="nd" style="animation-delay:2.10s" cx="711.7142857142858" cy="280" r="9" fill="#0A0D14" stroke="#A78BFA" stroke-width="2.5"/>
+<circle class="nd" style="animation-delay:2.45s" cx="752.0" cy="280" r="9" fill="#0A0D14" stroke="#A78BFA" stroke-width="2.5"/>
+<text x="470" y="322" class="m" font-size="19" font-weight="400" fill="#8B949E" text-anchor="start" >signals</text>
+<text x="752" y="322" class="m" font-size="19" font-weight="400" fill="#8B949E" text-anchor="end" >launch</text>
+<text x="752" y="410" class="m" font-size="22" font-weight="600" fill="#A78BFA" text-anchor="end" >open repo →</text>
+</g>
+<rect x="0.5" y="0.5" width="799" height="439" rx="20" stroke="#1E2532"/>
+</svg>
