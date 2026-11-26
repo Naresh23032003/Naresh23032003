@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440" fill="none" role="img" aria-label="Churn ML system: Feature store, promotion gate, registry rollback, and drift checks that know when not to retrain. 1.66 ms p95 serving latency over real HTTP.">
+<title>Churn ML system: Feature store, promotion gate, registry rollback, and drift checks that know when not to retrain. 1.66 ms p95 serving latency over real HTTP.</title>
+<style>
+.s{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif} .m{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+
+.gl{animation:breathe 7s ease-in-out infinite}
+@keyframes breathe{50%{opacity:.55}}
+.nd{animation:pop 3.2s ease-in-out infinite both}
+@keyframes pop{0%,100%{fill:#0A0D14}15%{fill:#34D399}35%{fill:#0A0D14}}
+.bar{transform-box:fill-box;transform-origin:center;animation:eq 1.3s ease-in-out infinite both}
+@keyframes eq{50%{transform:scaleY(.35)}}
+.draw{stroke-dasharray:1;animation:draw 5s ease-in-out infinite both}
+@keyframes draw{0%{stroke-dashoffset:1}40%,100%{stroke-dashoffset:0}}
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs>
+<clipPath id="clip"><rect width="800" height="440" rx="20"/></clipPath>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0v40" stroke="#fff" stroke-opacity="0.035"/></pattern>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#34D399" stop-opacity="0.32"/><stop offset="1" stop-color="#34D399" stop-opacity="0"/></radialGradient>
+</defs>
+<g clip-path="url(#clip)"><rect width="800" height="440" fill="#0A0D14"/>
+<rect width="800" height="440" fill="url(#grid)"/>
+<ellipse class="gl" cx="700" cy="40" rx="320" ry="200" fill="url(#glow)"/>
+<rect x="0" y="0" width="800" height="4" fill="#34D399"/>
+<text x="48" y="72" class="m" font-size="19" font-weight="600" fill="#34D399" text-anchor="start" letter-spacing="2">PRODUCTION ML</text>
+<text x="48" y="130" class="s" font-size="50" font-weight="700" fill="#E6EDF3" text-anchor="start" letter-spacing="-1">Churn ML system</text>
+<text x="48" y="176" class="s" font-size="23" font-weight="400" fill="#8B949E" text-anchor="start" >Feature store, promotion gate, registry rollback,</text>
+<text x="48" y="208" class="s" font-size="23" font-weight="400" fill="#8B949E" text-anchor="start" >and drift checks that know when not to retrain.</text>
+<text x="48" y="310" class="s" font-size="64" font-weight="700" fill="#34D399" text-anchor="start" letter-spacing="-1">1.66 ms</text>
+<text x="48" y="346" class="s" font-size="20" font-weight="400" fill="#C9D1D9" text-anchor="start" >p95 serving latency over real HTTP</text>
+<line x1="470" y1="256" x2="752" y2="256" stroke="#8B949E" stroke-dasharray="6 6" stroke-opacity=".6"/>
+<text x="752" y="246" class="m" font-size="16" font-weight="400" fill="#8B949E" text-anchor="end" >150 ms objective</text>
+<path class="draw" d="M470 322 L500 318 L530 324 L560 316 L590 321 L620 315 L650 322 L680 317 L710 320 L752 316" stroke="#34D399" stroke-width="3" stroke-linejoin="round" pathLength="1"/>
+<line x1="470" y1="336" x2="752" y2="336" stroke="#1E2532"/>
+<rect x="48" y="374" width="106" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
+<text x="101.19999999999999" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >FastAPI</text>
+<rect x="164.39999999999998" y="374" width="162" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
+<text x="245.59999999999997" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >scikit-learn</text>
+<rect x="336.79999999999995" y="374" width="62" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
+<text x="367.59999999999997" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >PSI</text>
+<rect x="408.4" y="374" width="129" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
+<text x="472.79999999999995" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >124 tests</text>
+<text x="752" y="398" class="m" font-size="18" font-weight="400" fill="#34D399" text-anchor="end" >open repo →</text>
+</g>
+<rect x="0.5" y="0.5" width="799" height="439" rx="20" stroke="#1E2532"/>
+</svg>
