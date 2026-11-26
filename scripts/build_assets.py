@@ -48,46 +48,46 @@ STATUS = [
 
 CARDS = [
     dict(
-        slug="aegis", accent="#F59E0B", kicker="AGENTIC INCIDENT OPS", title="AEGIS",
+        slug="aegis", accent="#F59E0B", kicker="AGENTIC INCIDENT OPS", title="AEGIS", hook="Agents that fix prod, but can’t go rogue.",
         desc=["Agents diagnose and fix live faults, but act only",
               "through a typed catalog, an OPA gate and signatures."],
         metric="0", label="paths from model output to a shell",
-        tags=["LangGraph", "OPA", "Ed25519", "Next.js"], motif="pipeline",
+        motif="pipeline",
     ),
     dict(
-        slug="nikki", accent="#F472B6", kicker="LOCAL-FIRST COMPANION", title="Nikki",
+        slug="nikki", accent="#F472B6", kicker="LOCAL-FIRST COMPANION", title="Nikki", hook="Private by default, runs on your own GPU.",
         desc=["Chat, long-term memory, voice calls and WhatsApp,",
               "fully offline. Guards live in code, not in prompts."],
         metric="6 GB", label="GPU budget for the whole voice stack",
-        tags=["FastAPI", "Ollama", "ChromaDB", "91 evals"], motif="wave",
+        motif="wave",
     ),
     dict(
-        slug="churn", accent="#34D399", kicker="PRODUCTION ML", title="Churn ML system",
+        slug="churn", accent="#34D399", kicker="PRODUCTION ML", title="Churn ML system", hook="ML where the model is the smallest part.",
         desc=["Feature store, promotion gate, registry rollback,",
               "and drift checks that know when not to retrain."],
         metric="1.66 ms", label="p95 serving latency over real HTTP",
-        tags=["FastAPI", "scikit-learn", "PSI", "124 tests"], motif="chart",
+        motif="chart",
     ),
     dict(
-        slug="pocket-professor", accent="#22D3EE", kicker="VOICE-FIRST LEARNING", title="Pocket Professor",
+        slug="pocket-professor", accent="#22D3EE", kicker="VOICE-FIRST LEARNING", title="Pocket Professor", hook="Learn out loud from any video or PDF.",
         desc=["Turns YouTube and PDFs into spoken quizzes, graded",
               "by an LLM and scheduled with FSRS."],
         metric="<2.5 s", label="budget for spoken feedback",
-        tags=["Expo", "Supabase", "Groq", "RLS"], motif="spaced",
+        motif="spaced",
     ),
     dict(
-        slug="insight-pulse", accent="#FB923C", kicker="CLOUD INFRASTRUCTURE", title="Insight Pulse",
+        slug="insight-pulse", accent="#FB923C", kicker="CLOUD INFRASTRUCTURE", title="Insight Pulse", hook="A SaaS shipped the way infra teams ship.",
         desc=["A Next.js SaaS taken all the way to EKS: Terraform",
               "VPC, real Stripe webhooks, SHA-pinned deploys."],
         metric="0", label="rebuilds needed to roll back",
-        tags=["Terraform", "EKS", "Actions", "Stripe"], motif="deploy",
+        motif="deploy",
     ),
     dict(
-        slug="product-factory", accent="#A78BFA", kicker="AGENT SKILLS", title="product-factory",
+        slug="product-factory", accent="#A78BFA", kicker="AGENT SKILLS", title="product-factory", hook="Idea to launch, as eight agent skills.",
         desc=["Eight skills that take a product from idea to launch",
               "in Claude Code, Codex, Copilot and Antigravity."],
         metric="8", label="skills, each with a cited method",
-        tags=["Claude Code", "SKILL.md", "plugin"], motif="steps",
+        motif="steps",
     ),
 ]
 
@@ -281,7 +281,7 @@ def motif(kind: str, a: str) -> str:
             else:
                 out.append(f'<circle class="nd" style="animation-delay:{i*0.45:.2f}s" cx="{x}" cy="{cy}" r="8" fill="{BG}" stroke="{a}" stroke-width="2.5"/>')
         out.append(f'<circle r="5" fill="{a}"><animateMotion dur="3.15s" repeatCount="indefinite" path="M{x0} {cy} H{x1}"/></circle>')
-        out.append(t(x0 + 4 * gap, cy + 42, "policy gate", 17, a, "m", anchor="middle"))
+        out.append(t(x0 + 4 * gap, cy + 42, "policy gate", 19, a, "m", anchor="middle"))
     elif kind == "wave":
         n = 22
         bw = (x1 - x0) / n
@@ -296,7 +296,7 @@ def motif(kind: str, a: str) -> str:
         pts = [(0, 86), (30, 82), (60, 88), (90, 80), (120, 85), (150, 79), (180, 86), (210, 81), (240, 84), (282, 80)]
         d = "M" + " L".join(f"{x0 + x} {y0 + y}" for x, y in pts)
         out.append(f'<line x1="{x0}" y1="{y0+20}" x2="{x1}" y2="{y0+20}" stroke="{MUTED}" stroke-dasharray="6 6" stroke-opacity=".6"/>')
-        out.append(t(x1, y0 + 10, "150 ms objective", 16, MUTED, "m", anchor="end"))
+        out.append(t(x1, y0 + 10, "150 ms objective", 19, MUTED, "m", anchor="end"))
         out.append(f'<path class="draw" d="{d}" stroke="{a}" stroke-width="3" stroke-linejoin="round" pathLength="1"/>')
         out.append(f'<line x1="{x0}" y1="{y0+100}" x2="{x1}" y2="{y0+100}" stroke="{EDGE}"/>')
     elif kind == "spaced":
@@ -305,7 +305,7 @@ def motif(kind: str, a: str) -> str:
         out.append(f'<line x1="{x0}" y1="{cy}" x2="{x0+282}" y2="{cy}" stroke="{EDGE}" stroke-width="2"/>')
         for i, dx in enumerate(xs):
             out.append(f'<circle class="nd" style="animation-delay:{i*0.5:.1f}s" cx="{x0+dx+6}" cy="{cy}" r="9" fill="{BG}" stroke="{a}" stroke-width="2.5"/>')
-        out.append(t(x0 + 282, cy + 42, "review intervals grow", 16, MUTED, "m", anchor="end"))
+        out.append(t(x0 + 282, cy + 42, "review intervals grow", 19, MUTED, "m", anchor="end"))
     elif kind == "deploy":
         stages = ["commit", "build", "ECR", "EKS"]
         gap = (x1 - x0 - 60) / 3
@@ -314,7 +314,7 @@ def motif(kind: str, a: str) -> str:
         for i, s in enumerate(stages):
             x = x0 + 30 + i * gap
             out.append(f'<rect x="{x-28}" y="{cy-18}" width="56" height="36" rx="8" fill="{BG}" stroke="{a}" stroke-width="2"/>')
-            out.append(t(x, cy + 52, s, 16, MUTED, "m", anchor="middle"))
+            out.append(t(x, cy + 52, s, 19, MUTED, "m", anchor="middle"))
         out.append(f'<rect width="12" height="12" rx="2" fill="{a}" y="-6" x="-6"><animateMotion dur="3s" repeatCount="indefinite" path="M{x0+30} {cy} H{x1-30}"/></rect>')
     elif kind == "steps":
         n = 8
@@ -325,8 +325,8 @@ def motif(kind: str, a: str) -> str:
             if i < n - 1:
                 out.append(f'<line x1="{x+10}" y1="{cy}" x2="{x+gap-10}" y2="{cy}" stroke="{EDGE}" stroke-width="2"/>')
             out.append(f'<circle class="nd" style="animation-delay:{i*0.35:.2f}s" cx="{x}" cy="{cy}" r="9" fill="{BG}" stroke="{a}" stroke-width="2.5"/>')
-        out.append(t(x0, cy + 42, "signals", 16, MUTED, "m"))
-        out.append(t(x1, cy + 42, "launch", 16, MUTED, "m", anchor="end"))
+        out.append(t(x0, cy + 42, "signals", 19, MUTED, "m"))
+        out.append(t(x1, cy + 42, "launch", 19, MUTED, "m", anchor="end"))
     return "\n".join(out)
 
 
@@ -335,20 +335,13 @@ def card(c: dict) -> str:
     body = [frame(w, h, glow=a)]
     body.append(f'<ellipse class="gl" cx="700" cy="40" rx="320" ry="200" fill="url(#glow)"/>')
     body.append(f'<rect x="0" y="0" width="{w}" height="4" fill="{a}"/>')
-    body.append(t(48, 72, c["kicker"], 19, a, "m", 600, extra='letter-spacing="2"'))
-    body.append(t(48, 130, c["title"], 50, INK, "s", 700, extra='letter-spacing="-1"'))
-    body.append(t(48, 176, c["desc"][0], 23, MUTED))
-    body.append(t(48, 208, c["desc"][1], 23, MUTED))
-    body.append(t(48, 310, c["metric"], 64, a, "s", 700, extra='letter-spacing="-1"'))
-    body.append(t(48, 346, c["label"], 20, "#C9D1D9"))
+    body.append(t(48, 76, c["kicker"], 22, a, "m", 600, extra='letter-spacing="2"'))
+    body.append(t(48, 144, c["title"], 62, INK, "s", 700, extra='letter-spacing="-1.5"'))
+    body.append(t(48, 196, c["hook"], 30, "#C9D1D9"))
+    body.append(t(48, 330, c["metric"], 88, a, "s", 700, extra='letter-spacing="-2"'))
+    body.append(t(48, 378, c["label"], 25, MUTED))
     body.append(motif(c["motif"], a))
-    x = 48
-    for tag in c["tags"]:
-        tw = len(tag) * 11.2 + 28
-        body.append(f'<rect x="{x}" y="374" width="{tw:.0f}" height="36" rx="18" fill="#111827" stroke="{EDGE}"/>')
-        body.append(t(x + tw / 2, 398, tag, 17, "#C9D1D9", "m", anchor="middle"))
-        x += tw + 10
-    body.append(t(w - 48, 398, "open repo →", 18, a, "m", anchor="end"))
+    body.append(t(w - 48, 410, "open repo →", 22, a, "m", 600, anchor="end"))
     body.append(frame_end(w, h))
     style = """
 .gl{animation:breathe 7s ease-in-out infinite}

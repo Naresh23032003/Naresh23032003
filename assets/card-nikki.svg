@@ -23,12 +23,11 @@
 <rect width="800" height="440" fill="url(#grid)"/>
 <ellipse class="gl" cx="700" cy="40" rx="320" ry="200" fill="url(#glow)"/>
 <rect x="0" y="0" width="800" height="4" fill="#F472B6"/>
-<text x="48" y="72" class="m" font-size="19" font-weight="600" fill="#F472B6" text-anchor="start" letter-spacing="2">LOCAL-FIRST COMPANION</text>
-<text x="48" y="130" class="s" font-size="50" font-weight="700" fill="#E6EDF3" text-anchor="start" letter-spacing="-1">Nikki</text>
-<text x="48" y="176" class="s" font-size="23" font-weight="400" fill="#8B949E" text-anchor="start" >Chat, long-term memory, voice calls and WhatsApp,</text>
-<text x="48" y="208" class="s" font-size="23" font-weight="400" fill="#8B949E" text-anchor="start" >fully offline. Guards live in code, not in prompts.</text>
-<text x="48" y="310" class="s" font-size="64" font-weight="700" fill="#F472B6" text-anchor="start" letter-spacing="-1">6 GB</text>
-<text x="48" y="346" class="s" font-size="20" font-weight="400" fill="#C9D1D9" text-anchor="start" >GPU budget for the whole voice stack</text>
+<text x="48" y="76" class="m" font-size="22" font-weight="600" fill="#F472B6" text-anchor="start" letter-spacing="2">LOCAL-FIRST COMPANION</text>
+<text x="48" y="144" class="s" font-size="62" font-weight="700" fill="#E6EDF3" text-anchor="start" letter-spacing="-1.5">Nikki</text>
+<text x="48" y="196" class="s" font-size="30" font-weight="400" fill="#C9D1D9" text-anchor="start" >Private by default, runs on your own GPU.</text>
+<text x="48" y="330" class="s" font-size="88" font-weight="700" fill="#F472B6" text-anchor="start" letter-spacing="-2">6 GB</text>
+<text x="48" y="378" class="s" font-size="25" font-weight="400" fill="#8B949E" text-anchor="start" >GPU budget for the whole voice stack</text>
 <rect class="bar" style="animation-delay:0.00s" x="470.0" y="256.5" width="7.1" height="63" rx="3" fill="#F472B6" fill-opacity="0.45"/>
 <rect class="bar" style="animation-delay:0.13s" x="482.8" y="274.5" width="7.1" height="27" rx="3" fill="#F472B6" fill-opacity="0.65"/>
 <rect class="bar" style="animation-delay:0.26s" x="495.6" y="265.5" width="7.1" height="45" rx="3" fill="#F472B6" fill-opacity="0.85"/>
@@ -51,15 +50,7 @@
 <rect class="bar" style="animation-delay:1.17s" x="713.5" y="256.5" width="7.1" height="63" rx="3" fill="#F472B6" fill-opacity="0.65"/>
 <rect class="bar" style="animation-delay:0.00s" x="726.4" y="270.0" width="7.1" height="36" rx="3" fill="#F472B6" fill-opacity="0.85"/>
 <rect class="bar" style="animation-delay:0.13s" x="739.2" y="270.0" width="7.1" height="36" rx="3" fill="#F472B6" fill-opacity="0.45"/>
-<rect x="48" y="374" width="106" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
-<text x="101.19999999999999" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >FastAPI</text>
-<rect x="164.39999999999998" y="374" width="95" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
-<text x="211.99999999999997" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >Ollama</text>
-<rect x="269.59999999999997" y="374" width="118" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
-<text x="328.4" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >ChromaDB</text>
-<rect x="397.19999999999993" y="374" width="118" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
-<text x="455.99999999999994" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >91 evals</text>
-<text x="752" y="398" class="m" font-size="18" font-weight="400" fill="#F472B6" text-anchor="end" >open repo →</text>
+<text x="752" y="410" class="m" font-size="22" font-weight="600" fill="#F472B6" text-anchor="end" >open repo →</text>
 </g>
 <rect x="0.5" y="0.5" width="799" height="439" rx="20" stroke="#1E2532"/>
 </svg>

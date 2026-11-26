@@ -23,31 +23,22 @@
 <rect width="800" height="440" fill="url(#grid)"/>
 <ellipse class="gl" cx="700" cy="40" rx="320" ry="200" fill="url(#glow)"/>
 <rect x="0" y="0" width="800" height="4" fill="#FB923C"/>
-<text x="48" y="72" class="m" font-size="19" font-weight="600" fill="#FB923C" text-anchor="start" letter-spacing="2">CLOUD INFRASTRUCTURE</text>
-<text x="48" y="130" class="s" font-size="50" font-weight="700" fill="#E6EDF3" text-anchor="start" letter-spacing="-1">Insight Pulse</text>
-<text x="48" y="176" class="s" font-size="23" font-weight="400" fill="#8B949E" text-anchor="start" >A Next.js SaaS taken all the way to EKS: Terraform</text>
-<text x="48" y="208" class="s" font-size="23" font-weight="400" fill="#8B949E" text-anchor="start" >VPC, real Stripe webhooks, SHA-pinned deploys.</text>
-<text x="48" y="310" class="s" font-size="64" font-weight="700" fill="#FB923C" text-anchor="start" letter-spacing="-1">0</text>
-<text x="48" y="346" class="s" font-size="20" font-weight="400" fill="#C9D1D9" text-anchor="start" >rebuilds needed to roll back</text>
+<text x="48" y="76" class="m" font-size="22" font-weight="600" fill="#FB923C" text-anchor="start" letter-spacing="2">CLOUD INFRASTRUCTURE</text>
+<text x="48" y="144" class="s" font-size="62" font-weight="700" fill="#E6EDF3" text-anchor="start" letter-spacing="-1.5">Insight Pulse</text>
+<text x="48" y="196" class="s" font-size="30" font-weight="400" fill="#C9D1D9" text-anchor="start" >A SaaS shipped the way infra teams ship.</text>
+<text x="48" y="330" class="s" font-size="88" font-weight="700" fill="#FB923C" text-anchor="start" letter-spacing="-2">0</text>
+<text x="48" y="378" class="s" font-size="25" font-weight="400" fill="#8B949E" text-anchor="start" >rebuilds needed to roll back</text>
 <line x1="500" y1="270" x2="722" y2="270" stroke="#1E2532" stroke-width="2"/>
 <rect x="472.0" y="252" width="56" height="36" rx="8" fill="#0A0D14" stroke="#FB923C" stroke-width="2"/>
-<text x="500.0" y="322" class="m" font-size="16" font-weight="400" fill="#8B949E" text-anchor="middle" >commit</text>
+<text x="500.0" y="322" class="m" font-size="19" font-weight="400" fill="#8B949E" text-anchor="middle" >commit</text>
 <rect x="546.0" y="252" width="56" height="36" rx="8" fill="#0A0D14" stroke="#FB923C" stroke-width="2"/>
-<text x="574.0" y="322" class="m" font-size="16" font-weight="400" fill="#8B949E" text-anchor="middle" >build</text>
+<text x="574.0" y="322" class="m" font-size="19" font-weight="400" fill="#8B949E" text-anchor="middle" >build</text>
 <rect x="620.0" y="252" width="56" height="36" rx="8" fill="#0A0D14" stroke="#FB923C" stroke-width="2"/>
-<text x="648.0" y="322" class="m" font-size="16" font-weight="400" fill="#8B949E" text-anchor="middle" >ECR</text>
+<text x="648.0" y="322" class="m" font-size="19" font-weight="400" fill="#8B949E" text-anchor="middle" >ECR</text>
 <rect x="694.0" y="252" width="56" height="36" rx="8" fill="#0A0D14" stroke="#FB923C" stroke-width="2"/>
-<text x="722.0" y="322" class="m" font-size="16" font-weight="400" fill="#8B949E" text-anchor="middle" >EKS</text>
+<text x="722.0" y="322" class="m" font-size="19" font-weight="400" fill="#8B949E" text-anchor="middle" >EKS</text>
 <rect width="12" height="12" rx="2" fill="#FB923C" y="-6" x="-6"><animateMotion dur="3s" repeatCount="indefinite" path="M500 270 H722"/></rect>
-<rect x="48" y="374" width="129" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
-<text x="112.4" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >Terraform</text>
-<rect x="186.8" y="374" width="62" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
-<text x="217.60000000000002" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >EKS</text>
-<rect x="258.4" y="374" width="106" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
-<text x="311.59999999999997" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >Actions</text>
-<rect x="374.79999999999995" y="374" width="95" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
-<text x="422.4" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >Stripe</text>
-<text x="752" y="398" class="m" font-size="18" font-weight="400" fill="#FB923C" text-anchor="end" >open repo →</text>
+<text x="752" y="410" class="m" font-size="22" font-weight="600" fill="#FB923C" text-anchor="end" >open repo →</text>
 </g>
 <rect x="0.5" y="0.5" width="799" height="439" rx="20" stroke="#1E2532"/>
 </svg>

@@ -23,12 +23,11 @@
 <rect width="800" height="440" fill="url(#grid)"/>
 <ellipse class="gl" cx="700" cy="40" rx="320" ry="200" fill="url(#glow)"/>
 <rect x="0" y="0" width="800" height="4" fill="#A78BFA"/>
-<text x="48" y="72" class="m" font-size="19" font-weight="600" fill="#A78BFA" text-anchor="start" letter-spacing="2">AGENT SKILLS</text>
-<text x="48" y="130" class="s" font-size="50" font-weight="700" fill="#E6EDF3" text-anchor="start" letter-spacing="-1">product-factory</text>
-<text x="48" y="176" class="s" font-size="23" font-weight="400" fill="#8B949E" text-anchor="start" >Eight skills that take a product from idea to launch</text>
-<text x="48" y="208" class="s" font-size="23" font-weight="400" fill="#8B949E" text-anchor="start" >in Claude Code, Codex, Copilot and Antigravity.</text>
-<text x="48" y="310" class="s" font-size="64" font-weight="700" fill="#A78BFA" text-anchor="start" letter-spacing="-1">8</text>
-<text x="48" y="346" class="s" font-size="20" font-weight="400" fill="#C9D1D9" text-anchor="start" >skills, each with a cited method</text>
+<text x="48" y="76" class="m" font-size="22" font-weight="600" fill="#A78BFA" text-anchor="start" letter-spacing="2">AGENT SKILLS</text>
+<text x="48" y="144" class="s" font-size="62" font-weight="700" fill="#E6EDF3" text-anchor="start" letter-spacing="-1.5">product-factory</text>
+<text x="48" y="196" class="s" font-size="30" font-weight="400" fill="#C9D1D9" text-anchor="start" >Idea to launch, as eight agent skills.</text>
+<text x="48" y="330" class="s" font-size="88" font-weight="700" fill="#A78BFA" text-anchor="start" letter-spacing="-2">8</text>
+<text x="48" y="378" class="s" font-size="25" font-weight="400" fill="#8B949E" text-anchor="start" >skills, each with a cited method</text>
 <line x1="480.0" y1="280" x2="500.2857142857143" y2="280" stroke="#1E2532" stroke-width="2"/>
 <circle class="nd" style="animation-delay:0.00s" cx="470.0" cy="280" r="9" fill="#0A0D14" stroke="#A78BFA" stroke-width="2.5"/>
 <line x1="520.2857142857142" y1="280" x2="540.5714285714286" y2="280" stroke="#1E2532" stroke-width="2"/>
@@ -44,15 +43,9 @@
 <line x1="721.7142857142858" y1="280" x2="742.0000000000001" y2="280" stroke="#1E2532" stroke-width="2"/>
 <circle class="nd" style="animation-delay:2.10s" cx="711.7142857142858" cy="280" r="9" fill="#0A0D14" stroke="#A78BFA" stroke-width="2.5"/>
 <circle class="nd" style="animation-delay:2.45s" cx="752.0" cy="280" r="9" fill="#0A0D14" stroke="#A78BFA" stroke-width="2.5"/>
-<text x="470" y="322" class="m" font-size="16" font-weight="400" fill="#8B949E" text-anchor="start" >signals</text>
-<text x="752" y="322" class="m" font-size="16" font-weight="400" fill="#8B949E" text-anchor="end" >launch</text>
-<rect x="48" y="374" width="151" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
-<text x="123.6" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >Claude Code</text>
-<rect x="209.2" y="374" width="118" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
-<text x="268.0" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >SKILL.md</text>
-<rect x="336.79999999999995" y="374" width="95" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
-<text x="384.4" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >plugin</text>
-<text x="752" y="398" class="m" font-size="18" font-weight="400" fill="#A78BFA" text-anchor="end" >open repo →</text>
+<text x="470" y="322" class="m" font-size="19" font-weight="400" fill="#8B949E" text-anchor="start" >signals</text>
+<text x="752" y="322" class="m" font-size="19" font-weight="400" fill="#8B949E" text-anchor="end" >launch</text>
+<text x="752" y="410" class="m" font-size="22" font-weight="600" fill="#A78BFA" text-anchor="end" >open repo →</text>
 </g>
 <rect x="0.5" y="0.5" width="799" height="439" rx="20" stroke="#1E2532"/>
 </svg>

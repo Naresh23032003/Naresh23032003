@@ -23,12 +23,11 @@
 <rect width="800" height="440" fill="url(#grid)"/>
 <ellipse class="gl" cx="700" cy="40" rx="320" ry="200" fill="url(#glow)"/>
 <rect x="0" y="0" width="800" height="4" fill="#22D3EE"/>
-<text x="48" y="72" class="m" font-size="19" font-weight="600" fill="#22D3EE" text-anchor="start" letter-spacing="2">VOICE-FIRST LEARNING</text>
-<text x="48" y="130" class="s" font-size="50" font-weight="700" fill="#E6EDF3" text-anchor="start" letter-spacing="-1">Pocket Professor</text>
-<text x="48" y="176" class="s" font-size="23" font-weight="400" fill="#8B949E" text-anchor="start" >Turns YouTube and PDFs into spoken quizzes, graded</text>
-<text x="48" y="208" class="s" font-size="23" font-weight="400" fill="#8B949E" text-anchor="start" >by an LLM and scheduled with FSRS.</text>
-<text x="48" y="310" class="s" font-size="64" font-weight="700" fill="#22D3EE" text-anchor="start" letter-spacing="-1">&lt;2.5 s</text>
-<text x="48" y="346" class="s" font-size="20" font-weight="400" fill="#C9D1D9" text-anchor="start" >budget for spoken feedback</text>
+<text x="48" y="76" class="m" font-size="22" font-weight="600" fill="#22D3EE" text-anchor="start" letter-spacing="2">VOICE-FIRST LEARNING</text>
+<text x="48" y="144" class="s" font-size="62" font-weight="700" fill="#E6EDF3" text-anchor="start" letter-spacing="-1.5">Pocket Professor</text>
+<text x="48" y="196" class="s" font-size="30" font-weight="400" fill="#C9D1D9" text-anchor="start" >Learn out loud from any video or PDF.</text>
+<text x="48" y="330" class="s" font-size="88" font-weight="700" fill="#22D3EE" text-anchor="start" letter-spacing="-2">&lt;2.5 s</text>
+<text x="48" y="378" class="s" font-size="25" font-weight="400" fill="#8B949E" text-anchor="start" >budget for spoken feedback</text>
 <line x1="470" y1="286" x2="752" y2="286" stroke="#1E2532" stroke-width="2"/>
 <circle class="nd" style="animation-delay:0.0s" cx="476" cy="286" r="9" fill="#0A0D14" stroke="#22D3EE" stroke-width="2.5"/>
 <circle class="nd" style="animation-delay:0.5s" cx="500" cy="286" r="9" fill="#0A0D14" stroke="#22D3EE" stroke-width="2.5"/>
@@ -37,16 +36,8 @@
 <circle class="nd" style="animation-delay:2.0s" cx="612" cy="286" r="9" fill="#0A0D14" stroke="#22D3EE" stroke-width="2.5"/>
 <circle class="nd" style="animation-delay:2.5s" cx="672" cy="286" r="9" fill="#0A0D14" stroke="#22D3EE" stroke-width="2.5"/>
 <circle class="nd" style="animation-delay:3.0s" cx="746" cy="286" r="9" fill="#0A0D14" stroke="#22D3EE" stroke-width="2.5"/>
-<text x="752" y="328" class="m" font-size="16" font-weight="400" fill="#8B949E" text-anchor="end" >review intervals grow</text>
-<rect x="48" y="374" width="73" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
-<text x="84.4" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >Expo</text>
-<rect x="130.8" y="374" width="118" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
-<text x="189.60000000000002" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >Supabase</text>
-<rect x="258.4" y="374" width="73" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
-<text x="294.79999999999995" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >Groq</text>
-<rect x="341.2" y="374" width="62" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
-<text x="372.0" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >RLS</text>
-<text x="752" y="398" class="m" font-size="18" font-weight="400" fill="#22D3EE" text-anchor="end" >open repo →</text>
+<text x="752" y="328" class="m" font-size="19" font-weight="400" fill="#8B949E" text-anchor="end" >review intervals grow</text>
+<text x="752" y="410" class="m" font-size="22" font-weight="600" fill="#22D3EE" text-anchor="end" >open repo →</text>
 </g>
 <rect x="0.5" y="0.5" width="799" height="439" rx="20" stroke="#1E2532"/>
 </svg>

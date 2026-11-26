@@ -23,12 +23,11 @@
 <rect width="800" height="440" fill="url(#grid)"/>
 <ellipse class="gl" cx="700" cy="40" rx="320" ry="200" fill="url(#glow)"/>
 <rect x="0" y="0" width="800" height="4" fill="#F59E0B"/>
-<text x="48" y="72" class="m" font-size="19" font-weight="600" fill="#F59E0B" text-anchor="start" letter-spacing="2">AGENTIC INCIDENT OPS</text>
-<text x="48" y="130" class="s" font-size="50" font-weight="700" fill="#E6EDF3" text-anchor="start" letter-spacing="-1">AEGIS</text>
-<text x="48" y="176" class="s" font-size="23" font-weight="400" fill="#8B949E" text-anchor="start" >Agents diagnose and fix live faults, but act only</text>
-<text x="48" y="208" class="s" font-size="23" font-weight="400" fill="#8B949E" text-anchor="start" >through a typed catalog, an OPA gate and signatures.</text>
-<text x="48" y="310" class="s" font-size="64" font-weight="700" fill="#F59E0B" text-anchor="start" letter-spacing="-1">0</text>
-<text x="48" y="346" class="s" font-size="20" font-weight="400" fill="#C9D1D9" text-anchor="start" >paths from model output to a shell</text>
+<text x="48" y="76" class="m" font-size="22" font-weight="600" fill="#F59E0B" text-anchor="start" letter-spacing="2">AGENTIC INCIDENT OPS</text>
+<text x="48" y="144" class="s" font-size="62" font-weight="700" fill="#E6EDF3" text-anchor="start" letter-spacing="-1.5">AEGIS</text>
+<text x="48" y="196" class="s" font-size="30" font-weight="400" fill="#C9D1D9" text-anchor="start" >Agents that fix prod, but can’t go rogue.</text>
+<text x="48" y="330" class="s" font-size="88" font-weight="700" fill="#F59E0B" text-anchor="start" letter-spacing="-2">0</text>
+<text x="48" y="378" class="s" font-size="25" font-weight="400" fill="#8B949E" text-anchor="start" >paths from model output to a shell</text>
 <line x1="470" y1="280" x2="752" y2="280" stroke="#1E2532" stroke-width="2"/>
 <circle class="nd" style="animation-delay:0.00s" cx="470.0" cy="280" r="8" fill="#0A0D14" stroke="#F59E0B" stroke-width="2.5"/>
 <circle class="nd" style="animation-delay:0.45s" cx="517.0" cy="280" r="8" fill="#0A0D14" stroke="#F59E0B" stroke-width="2.5"/>
@@ -38,16 +37,8 @@
 <circle class="nd" style="animation-delay:2.25s" cx="705.0" cy="280" r="8" fill="#0A0D14" stroke="#F59E0B" stroke-width="2.5"/>
 <circle class="nd" style="animation-delay:2.70s" cx="752.0" cy="280" r="8" fill="#0A0D14" stroke="#F59E0B" stroke-width="2.5"/>
 <circle r="5" fill="#F59E0B"><animateMotion dur="3.15s" repeatCount="indefinite" path="M470 280 H752"/></circle>
-<text x="658.0" y="322" class="m" font-size="17" font-weight="400" fill="#F59E0B" text-anchor="middle" >policy gate</text>
-<rect x="48" y="374" width="129" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
-<text x="112.4" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >LangGraph</text>
-<rect x="186.8" y="374" width="62" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
-<text x="217.60000000000002" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >OPA</text>
-<rect x="258.4" y="374" width="106" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
-<text x="311.59999999999997" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >Ed25519</text>
-<rect x="374.79999999999995" y="374" width="106" height="36" rx="18" fill="#111827" stroke="#1E2532"/>
-<text x="427.99999999999994" y="398" class="m" font-size="17" font-weight="400" fill="#C9D1D9" text-anchor="middle" >Next.js</text>
-<text x="752" y="398" class="m" font-size="18" font-weight="400" fill="#F59E0B" text-anchor="end" >open repo →</text>
+<text x="658.0" y="322" class="m" font-size="19" font-weight="400" fill="#F59E0B" text-anchor="middle" >policy gate</text>
+<text x="752" y="410" class="m" font-size="22" font-weight="600" fill="#F59E0B" text-anchor="end" >open repo →</text>
 </g>
 <rect x="0.5" y="0.5" width="799" height="439" rx="20" stroke="#1E2532"/>
 </svg>
