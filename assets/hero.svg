@@ -25,7 +25,7 @@
 <defs><radialGradient id="a" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#6366F1" stop-opacity=".45"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/></radialGradient><radialGradient id="b" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#22D3EE" stop-opacity=".30"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient><linearGradient id="ink" x1="72" y1="0" x2="620" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient></defs>
 <ellipse class="da" cx="260" cy="60" rx="420" ry="220" fill="url(#a)"/>
 <ellipse class="db" cx="1000" cy="360" rx="420" ry="220" fill="url(#b)"/>
-<text x="72" y="96" class="m" font-size="20" font-weight="400" fill="#8B949E" text-anchor="start" >~/naresh  ·  applied AI engineer &amp; researcher</text>
+<text x="72" y="96" class="m" font-size="20" font-weight="400" fill="#8B949E" text-anchor="start" >~/naresh  ·  independent AI consultant &amp; researcher</text>
 <text x="72" y="190" class="s" font-size="88" font-weight="700" fill="#E6EDF3" text-anchor="start" letter-spacing="-2">Naresh R</text>
 <text x="72" y="252" class="s" font-size="32" font-weight="400" fill="#C9D1D9" text-anchor="start" >I build AI that runs where the data lives,</text>
 <text x="72" y="296" class="s" font-size="32" font-weight="600" fill="url(#ink)" text-anchor="start" >and makes it prove what it did.</text>

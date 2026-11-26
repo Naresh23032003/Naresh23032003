@@ -2,9 +2,9 @@
 
 <img src="assets/hero.svg" width="100%" alt="Naresh R. I build AI that runs where the data lives, and makes it prove what it did.">
 
-**Forward Deployed Engineer at VaultStack AI** · ex-Accenture · IIT Madras · BITS Pilani · India
+**Independent AI consultant** · ex-Accenture · IIT Madras · BITS Pilani · India
 
-<a href="https://naresh-ai.com">naresh-ai.com</a> &nbsp;·&nbsp; <a href="https://linkedin.com/in/naresh23">LinkedIn</a> &nbsp;·&nbsp; <a href="mailto:rnaresh23032003@gmail.com">Email</a> &nbsp;·&nbsp; <a href="https://naresh-ai.com/resume.pdf">Résumé</a> &nbsp;·&nbsp; <a href="https://orcid.org/0009-0000-0735-2066">ORCID</a>
+<a href="https://naresh-ai.com">naresh-ai.com</a> &nbsp;·&nbsp; <a href="https://linkedin.com/in/naresh23">LinkedIn</a> &nbsp;·&nbsp; <a href="mailto:rnaresh23032003@gmail.com">Email</a> &nbsp;·&nbsp; <a href="https://naresh-ai.com/resume.pdf">Résumé</a> &nbsp;·&nbsp; <a href="https://orcid.org/0009-0000-0735-2066">ORCID</a> &nbsp;·&nbsp; <a href="#work-with-me"><b>Work with me</b></a>
 
 </div>
 
@@ -12,13 +12,13 @@
 
 Agents that reason freely but can only act through a typed catalog and a policy gate. Local models that do the default work on a consumer GPU. Logs you can recompute instead of just read. That's the thread through everything below, and every number on this page points at a file you can check.
 
-> **In short:** applied AI engineer and researcher, shipping AI full-time since 2025 at Accenture and VaultStack AI. Four peer-reviewed papers and a solo working paper. Six solo systems below, each with tests or evals you can run.
+> **In short:** I help companies take AI from demo to production: agents that act on real systems safely, retrieval that cites its source or abstains, and models that are gated and monitored. Before going independent I built decision systems at Accenture. Four peer-reviewed papers and a solo working paper. Six solo systems below, each with tests or evals you can run.
 
 <br>
 
 ## Right now
 
-<img src="assets/now.svg" width="100%" alt="What I am working on now: AEGIS and Nikki active; mcp-approval-gateway being built; IDR crypto-premium paper being written; product-factory-skills and the churn ML system shipped">
+<img src="assets/now.svg" width="100%" alt="What I am working on now: a client engagement with VaultStack AI on air-gapped compliance RAG; AEGIS and Nikki active; mcp-approval-gateway being built; IDR crypto-premium paper being written; product-factory-skills and the churn ML system shipped">
 
 <sub>[AEGIS](https://github.com/Naresh23032003/AEGIS) · [Nikki](https://github.com/Naresh23032003/Nikki-AI-Companion) · [mcp-approval-gateway](https://github.com/Naresh23032003/mcp-approval-gateway) · [IDR paper](https://github.com/Naresh23032003/idr-stablecoin-fx-basis) · [product-factory-skills](https://github.com/Naresh23032003/product-factory-skills) · [Churn ML](https://github.com/Naresh23032003/MLME)</sub>
 
@@ -177,14 +177,14 @@ I run the engineering repos like experiments: a fixed eval set, an ablation, and
 
 ## The path
 
-<img src="assets/path.svg" width="100%" alt="Career path: internships at Royal Enfield, Tecnod8 and Razorpay; TVS Electronics ML intern May 2024; Razorpay product development intern July 2024; Accenture AI decision science analyst January 2025; VaultStack AI forward deployed engineer since June 2026">
+<img src="assets/path.svg" width="100%" alt="Career path: internships at Royal Enfield, Tecnod8 and Razorpay; TVS Electronics ML intern May 2024; Razorpay product development intern July 2024; Accenture AI decision science analyst January 2025; independent AI consultant since June 2026, client VaultStack AI">
 
 <details>
 <summary><b>What I did in each role</b></summary>
 
 <br>
 
-- **VaultStack AI · Forward Deployed Engineer · Jun 2026 – now.** Air-gapped RAG for financial compliance due diligence, running fully offline on self-hosted models: hybrid dense and sparse retrieval, Docling table extraction, BGE-M3 with cross-encoder re-ranking, and a verifier that traces every figure to its source or abstains.
+- **Independent AI consultant · Jun 2026 – now.** Current client: VaultStack AI, embedded as a forward deployed engineer. Air-gapped RAG for financial compliance due diligence, running fully offline on self-hosted models: hybrid dense and sparse retrieval, Docling table extraction, BGE-M3 with cross-encoder re-ranking, and a verifier that traces every figure to its source or abstains.
 - **Accenture · AI Decision Science Analyst · Jan 2025 – Apr 2026.** A multi-agent decision platform for production planning, MILP supply-chain tooling with CPLEX and Gurobi behind Django and React, Databricks and Azure Data Factory pipeline fixes, and customer segmentation in production.
 - **Razorpay · Product Development Intern · Jul – Oct 2024.** Automated personalised PDF reports for 200+ merchants with A/B testing, and an admin dashboard feature that saved about four hours of manual work per merchant.
 - **TVS Electronics · ML Intern · May – Jul 2024.** RAG over service data on AWS Bedrock with Llama 3, plus an NLP cleaning pipeline and a Streamlit prototype.
@@ -206,8 +206,17 @@ I run the engineering repos like experiments: a fixed eval set, an ablation, and
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Naresh23032003/Naresh23032003/output/snake-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Naresh23032003/Naresh23032003/output/snake-light.svg"><img src="https://raw.githubusercontent.com/Naresh23032003/Naresh23032003/output/snake-dark.svg" alt="Contribution graph animation" width="100%"></picture>
 
-## Let's talk
+## Work with me
 
-If you're putting an agent anywhere near production systems, building retrieval that must not invent numbers, or shipping a model that needs a real promotion gate, I've done each of those and I'm glad to compare notes.
+I take on focused engagements where AI has to work in production, not just in a demo. Typical problems, and where you can see I've solved them before:
+
+| If you need… | What I bring | Proof |
+|:--|:--|:--|
+| An agent that acts on real systems | Typed action catalogs, policy gates, signed approvals, audit logs you can verify | [AEGIS](https://github.com/Naresh23032003/AEGIS) |
+| RAG on sensitive data, on-prem or air-gapped | Hybrid retrieval, table extraction, re-ranking, and a verifier that cites or abstains | Current client work |
+| A model taken to production | Promotion gates, a registry with rollback, drift monitoring, serving under a latency budget | [Churn ML system](https://github.com/Naresh23032003/MLME) |
+| LLMs on your own hardware | Local-first inference, routing, and guards in code, inside tight GPU budgets | [Nikki](https://github.com/Naresh23032003/Nikki-AI-Companion) |
+
+You get what these repos have: evals or tests you can rerun, decisions written down next to the numbers behind them, and code your team can own once I'm gone.
 
 **[rnaresh23032003@gmail.com](mailto:rnaresh23032003@gmail.com)** · [LinkedIn](https://linkedin.com/in/naresh23) · [naresh-ai.com](https://naresh-ai.com)
